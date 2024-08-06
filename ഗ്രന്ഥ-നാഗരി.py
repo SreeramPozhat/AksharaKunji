@@ -100,8 +100,7 @@ import os
 print("നിലവിലെ പ്രവർത്തന സ്ഥാനം:", os.getcwd())
 
 # ഈ .bundle എന്ന താളിയുള്ള പാത നൽകുക.
-bundle_പാത = '/Users/user/Library/Mobile Documents/com~apple~CloudDocs/മനസ്സിൻ_കൊട്ടാരം/आश/अवसंरचन/भाष/अक्षर कुञ्जि'
-#/Users/user/Downloads
+bundle_പാത = '/Users/user/Files/AksharaKunji'
 
 # നിക്ഷേപ & പരിണാമ ഓലകളുടെ പൂർണ്ണ പാത
 നിക്ഷേപതാളി = os.path.join(bundle_പാത, 'सरळसंस्कृतं.bundle/Contents/Resources/സരളഗ്രന്ഥ.keylayout')

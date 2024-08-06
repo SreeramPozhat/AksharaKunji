@@ -96,7 +96,7 @@ import os
 print("നിലവിലെ പ്രവർത്തന സ്ഥാനം:", os.getcwd())
 
 # ഈ .bundle എന്ന താളിയുള്ള പാത നൽകുക.
-bundle_പാത = '/Users/user/Library/Mobile Documents/com~apple~CloudDocs/മനസ്സിൻ_കൊട്ടാരം/आश/अवसंरचन/भाष/अक्षर कुञ्जि'
+bundle_പാത = '/Users/user/Files/AksharaKunji'
 #/Users/user/Downloads
 
 # നിക്ഷേപ & പരിണാമ ഓലകളുടെ പൂർണ്ണ പാത
