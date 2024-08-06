@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>org.sil.ukelele.keyboardlayout.ramakrutam</string>
+	<key>CFBundleName</key>
+	<string>सरळसंस्कृतं</string>
+	<key>CFBundleVersion</key>
+	<string>1.1.0</string>
+	<key>KLInfo_सरळनागरि</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.ramakrutam.सरळनागरि</string>
+		<key>TISIntendedLanguage</key>
+		<string>sa-Deva-IN</string>
+	</dict>
+	<key>KLInfo_സരളഗ്രന്ഥ</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.ramakrutam.സരളഗ്രന്ഥ</string>
+		<key>TISIntendedLanguage</key>
+		<string>sa-Mlym-IN</string>
+	</dict>
+</dict>
+</plist>
