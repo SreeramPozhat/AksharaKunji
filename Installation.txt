@@ -10,9 +10,3 @@
 
 നിങ്ങൾ ഈ ഫയലിൽ സജീവമായി പ്രവർത്തിക്കുന്നുവെങ്കിൽ, ഈ പാഥയി‍ൽ ടേർമിനലിൽ "chmod +x install_layout.sh" ഓടിച്ച് ഇത് എക്സിക്യൂട്ടബിൾ ആക്കി മാറ്റുക. ശേഷം, വിവരണങ്ങളി‍ൽ (File info) പോയി, ഡിഫോൾട്ട് ആപ്ലിക്കേഷനെ 'ടേർമിനൽ' ആക്കുക, പിന്നീട് നിങ്ങൾക്കു വേണ്ട തിരുത്തലുകൾ ചെയ്യുമ്പോഴൊക്കെ, ഈ ഫയലിനെ റൺ ചെയ്ത് കീബോർഡ് ഇൻസ്റ്റാൾ ചെയ്യുക.
 --------------------------------------------------------------------------------------------------------------------------------------------------------
-Paste the .bundle file to "~/Library/Keyboard Layouts" for installation for single user. For installation for all users, remove the ~ in the beginning of the address given.
-
-The code given in the file "install_layout.sh" does the same job of installing for the single user. Just execute it through terminal. 
-
-If you are working on improving this file actively, then you can run "chmod +x install_layout.sh" in terminal in this directory to make this into an executable. Then, go to file_info, change the default app to 'Terminal' and then run the file everytime you want to install keyboard after modification.
---------------------------------------------------------------------------------------------------------------------------------------------------------
