@@ -85,9 +85,9 @@ def ഓല_മാഺം(നിക്ഷേപതാളി, പരിണാമത
 
 
     # Check for duplicate lines within blocks and remove them
-    remove_duplicate_lines_within_blocks(പരിണാമതാളി)
+    അനുകരണമാഺൽ(പരിണാമതാളി)
 
-def remove_duplicate_lines_within_blocks(file_path):
+def അനുകരണമാഺൽ(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         lines = file.readlines()
 
@@ -134,46 +134,46 @@ def remove_duplicate_lines_within_blocks(file_path):
 print(f'{പരിണാമതാളി}ലെ അനുകരണങ്ങൾ കളഞ്ഞു.')
 
 
-def generate_colorful_alphabet_image(alphabet, size, output_path):
+def സുന്ദര_പ്രതീകം(അക്ഷരം, വലുപ്പം, output_path):
     # Create an image with transparent background
-    image = Image.new('RGBA', (size, size), (255, 255, 255, 0))  # Transparent background
+    image = Image.new('RGBA', (വലുപ്പം, വലുപ്പം), (255, 255, 255, 0))  # Transparent background
     draw = ImageDraw.Draw(image)
 
-    # Define initial font size and color
-    initial_font_size = size // 2  # Start with a large font size
+    # Define initial font വലുപ്പം and color
+    തുടക്കത്തിലെ_പ്രതീക_വലുപ്പം = വലുപ്പം // 2  # Start with a large font വലുപ്പം
     green_color = (0, 255, 0, 255)  # Green text color with full opacity
     
     # Load a TTF font file that supports Unicode characters
     try:
         font_path = "/Library/Fonts/Arial Unicode.ttf"  # Adjust to a font path that exists on your system
-        font = ImageFont.truetype(font_path, initial_font_size)
+        font = ImageFont.truetype(font_path, തുടക്കത്തിലെ_പ്രതീക_വലുപ്പം)
     except IOError:
         font = ImageFont.load_default()
     
-    # Increase the font size until the text fits the canvas
-    font_size = initial_font_size
+    # Increase the font വലുപ്പം until the text fits the canvas
+    പ്രതീക_വലുപ്പം = തുടക്കത്തിലെ_പ്രതീക_വലുപ്പം
     while True:
-        font = ImageFont.truetype(font_path, font_size)
-        bbox = draw.textbbox((0, 0), alphabet, font=font)
+        font = ImageFont.truetype(font_path, പ്രതീക_വലുപ്പം)
+        bbox = draw.textbbox((0, 0), അക്ഷരം, font=font)
         text_width = bbox[2] - bbox[0]
         text_height = bbox[3] - bbox[1]
-        if text_width >= size * 0.8 or text_height >= size * 0.8:  # Leave some margin
+        if text_width >= വലുപ്പം * 0.8 or text_height >= വലുപ്പം * 0.8:  # Leave some margin
             break
-        font_size += 10
+        പ്രതീക_വലുപ്പം += 10
 
     # Calculate the position to center the text
-    text_x = (size - text_width) / 2
+    text_x = (വലുപ്പം - text_width) / 2
     # To fix the bottom center issue, adjust the y position using bbox top value
-    text_y = (size - text_height) / 2 - bbox[1]
+    text_y = (വലുപ്പം - text_height) / 2 - bbox[1]
 
     # Draw text on the image
-    draw.text((text_x, text_y), alphabet, fill=green_color, font=font)
+    draw.text((text_x, text_y), അക്ഷരം, fill=green_color, font=font)
     
     # Save the image
     image.save(output_path)
     #print(f'Image saved as {output_path}')
 
-def create_icns(script_name):
+def പ്രതീകം_ഉണ്ടാക്കൽ(script_name):
     # Load the script module dynamically
     script_dir = os.path.dirname(os.path.abspath(__file__))
     script_path = os.path.join(script_dir, f"{script_name}.py")
@@ -183,23 +183,23 @@ def create_icns(script_name):
     spec.loader.exec_module(module)
     
     # Fetch the value for the key 'आ'
-    alphabet = module.സാധാരണാക്ഷരം['आ']
+    അക്ഷരം = module.സാധാരണാക്ഷരം['आ']
     
-    # Define sizes for the iconset
-    sizes = [16, 32, 64, 128, 256, 512, 1024]
-    iconset_dir = os.path.join(script_dir, 'alphabet.iconset')
+    # Define വലുപ്പംങൾ for the iconset
+    വലുപ്പങൾ = [16, 32, 64, 128, 256, 512, 1024]
+    iconset_dir = os.path.join(script_dir, 'അക്ഷരം.iconset')
 
     # Create iconset directory
     if not os.path.exists(iconset_dir):
         os.makedirs(iconset_dir)
     
-    # Generate images for each size and save them in the iconset directory
-    for size in sizes:
-        output_path = os.path.join(iconset_dir, f'icon_{size}x{size}.png')
-        generate_colorful_alphabet_image(alphabet, size, output_path)
-        if size != 1024:  # For @2x sizes
-            output_path_2x = os.path.join(iconset_dir, f'icon_{size}x{size}@2x.png')
-            generate_colorful_alphabet_image(alphabet, size * 2, output_path_2x)
+    # Generate images for each വലുപ്പം and save them in the iconset directory
+    for വലുപ്പം in വലുപ്പങൾ:
+        output_path = os.path.join(iconset_dir, f'icon_{വലുപ്പം}x{വലുപ്പം}.png')
+        സുന്ദര_പ്രതീകം(അക്ഷരം, വലുപ്പം, output_path)
+        if വലുപ്പം != 1024:  # For @2x വലുപ്പങൾ
+            output_path_2x = os.path.join(iconset_dir, f'icon_{വലുപ്പം}x{വലുപ്പം}@2x.png')
+            സുന്ദര_പ്രതീകം(അക്ഷരം, വലുപ്പം * 2, output_path_2x)
 
     # Convert the iconset to ICNS using iconutil
     icns_path = os.path.join(os.path.dirname(പരിണാമതാളി), f'{script_name}.icns')
@@ -218,4 +218,4 @@ def create_icns(script_name):
 print(f'ഓലമാഺം പൂർത്തിയായി. പരിണാമം {പരിണാമതാളി} ൽ സംരക്ഷിച്ചു.')
 
 # Generate the ICNS file
-create_icns(ലിപി_നാമം)
+പ്രതീകം_ഉണ്ടാക്കൽ(ലിപി_നാമം)
