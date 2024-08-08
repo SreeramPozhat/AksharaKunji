@@ -90,13 +90,9 @@
 
 import os
 
-# നിലവിലെ പ്രവർത്തന സ്ഥാനം അച്ചടിക്കുക
-print("നിലവിലെ പ്രവർത്തന സ്ഥാനം:", os.getcwd())
-
-# ഈ .bundle എന്ന താളിയുള്ള പാത നൽകുക.
-bundle_പാത = '/Users/user/Files/AksharaKunji'
-#/Users/user/Downloads
-
+# ഈ  എന്ന താളിയുള്ള പാത നൽകുക.
+bundle_പാത = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) #ഇത് coding എന്ന താളിയുടെ ഉള്ളി‍ൽ ആയതിനാ‍ൽ
+print(".bundleൻറ്റെ സ്ഥാനം:", bundle_പാത) #os.getcwd ക്ക് പകരം
 # നിക്ഷേപ & പരിണാമ ഓലകളുടെ പൂർണ്ണ പാത
 നിക്ഷേപതാളി = os.path.join(bundle_പാത, 'सरळसंस्कृतं.bundle/Contents/Resources/सरळनागरि.keylayout')
 പരിണാമതാളി = os.path.join(bundle_പാത, 'सरळसंस्कृतं.bundle/Contents/Resources/സരളഗ്രന്ഥ.keylayout')
