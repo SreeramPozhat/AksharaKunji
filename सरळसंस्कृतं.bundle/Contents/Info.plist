@@ -7,7 +7,7 @@
 	<key>CFBundleName</key>
 	<string>सरळसंस्कृतं</string>
 	<key>CFBundleVersion</key>
-	<string>1.1.0</string>
+	<string>1.0.0</string>
 	<key>KLInfo_सरळनागरि</key>
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
@@ -18,6 +18,94 @@
 		<string>org.sil.ukelele.keyboardlayout.ramakrutam.सरळनागरि</string>
 		<key>TISIntendedLanguage</key>
 		<string>sa-Deva-IN</string>
+	</dict>
+	<key>KLInfo_সরলানাগরি</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.ramakrutam.সরলানাগরি</string>
+		<key>TISIntendedLanguage</key>
+		<string>bn-IN</string>
+	</dict>
+	<key>KLInfo_সৰলনাগৰি</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.ramakrutam.সৰলনাগৰি</string>
+		<key>TISIntendedLanguage</key>
+		<string>as-IN</string>
+	</dict>
+	<key>KLInfo_ਸਰਾਲੰਗ਼ਰੀ</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.ramakrutam.ਸਰਾਲੰਗ਼ਰੀ</string>
+		<key>TISIntendedLanguage</key>
+		<string>pa-IN</string>
+	</dict>
+	<key>KLInfo_સારાલાનાગરી</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.ramakrutam.સારાલાનાગરી</string>
+		<key>TISIntendedLanguage</key>
+		<string>gu-IN</string>
+	</dict>
+	<key>KLInfo_ସରଳକ୍ଳିଙ୍ଗ</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.ramakrutam.ସରଳକ୍ଳିଙ୍ଗ</string>
+		<key>TISIntendedLanguage</key>
+		<string>or-IN</string>
+	</dict>
+	<key>KLInfo_தமிழ்க்ரந்த</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.ramakrutam.தமிழ்க்ரந்த</string>
+		<key>TISIntendedLanguage</key>
+		<string>ta-IN-simple</string>
+	</dict>
+	<key>KLInfo_సరళగ్రంథ</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.ramakrutam.సరళగ్రంథ</string>
+		<key>TISIntendedLanguage</key>
+		<string>te-IN</string>
+	</dict>
+	<key>KLInfo_ಸರಳಗ್ರಂಥ</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.ramakrutam.ಸರಳಗ್ರಂಥ</string>
+		<key>TISIntendedLanguage</key>
+		<string>kn-IN</string>
 	</dict>
 	<key>KLInfo_സരളഗ്രന്ഥ</key>
 	<dict>
