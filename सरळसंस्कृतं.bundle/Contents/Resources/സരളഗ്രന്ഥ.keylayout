@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--സംസ്കരണ 1.0.1 രാമേണ കൃതമ്&#x000A;സ്ഥിരമപ്രകാശിതം സംസ്കരണം ദിനാംകഃ : 5126-ശ്രാവണ-01&#x000A;Capslock On.&#x000A;&#x000A;വേദോച്ഛാരണം (സ്വരാഃ) —&#x003E; Shift + Options +&#x000A;1. ഉദാത്ത: &#x0027; (apostrophe)&#x000A;2. അനുദാത്ത: , (comma)&#x000A;3. സ്വരിത: - (minus)&#x000A;&#x000A;&#x000A;അനുപസ്ഥിതാഃ വിശെഷതാഃ:&#x000A;&#x000A;സിദ്ധാന്തതഃ, &#x0027;Options&#x0027; + ത് = ത്ർ, കിന്തു യതഃ ജനാഃ ആരമ്ഭെ &#x0027;T&#x0027; കോ ട് ഇതി അപി പ്രയുഞ്ജതെ, അത്ര &#x0027;Options&#x0027; കുഞ്ജി ഇതി പ്രയുക്തഃ.&#x000A;വ്യഞ്ചനാനാം പരം ർ ഇതി ദ്വിവാരം ദാബയന്തഃ സാമാന്യം യോഗം (യഥാ ക്ർ) കിന്തു അധികം തർകം കാര്യം ന ഭവിഷ്യതി.&#x000A;Control+അക്ഷര=ദ്വി അക്ഷര (മേക്ബുക് യന്ത്രെ).&#x000A;&#x000A;സന്ധി നിയമാഃ യഥാ ന് ഇത്യസ്യ ൺ ഇത്യസ്യ പരിവർതനം യദാ ർ ഇത്യസ്യ പരം. എതാനി ശബ്ദ-പ്രക്രമാനുസാരം (MS word ഇത്യാദി) കർതവ്യാഃ. ഓപന സോർസ് ശബ്ദ-പ്രക്രമാഃ നിയമാഃ കൃതാഃ കിന്തു അപി പ്രകാശിതാഃ ന സന്തി യതഃ സർവാഃ നിയമാഃ അപി ന യുക്താഃ. അയം വിന്യാസ/വ്യാകരണ നിരീക്ഷണം ഇവ കാര്യം. അ+ാ, ഉ+ു ഇത്യാദി ച ശബ്ദ-പ്രക്രമെണ സമ്യക് കരണീയം.&#x000A;&#x000A;യദ്യപി കോഽപി അന്യഃ വിശേഷതാഃ ആവശ്യകാഃ സന്തി കൃപയാ നിവേദനം കുരു..-->
-<!--Last edited by Ukelele version 396 on 1946-05-17 at 03:30 (GMT-1)-->
+<!--Last edited by Ukelele version 396 on 1946-05-18 at 07:22 (GMT-1)-->
 <keyboard group="126" id="-20069" name="സരളഗ്രന്ഥ" maxout="9">
     <layouts>
         <layout first="0" last="17" mapSet="16c" modifiers="f4"/>
@@ -2691,6 +2691,9 @@
             <when state="ഞ്രാ" output="ഞ്രാ"/>
             <when state="ഞ്രൊ" output="ഞ്രോ"/>
             <when state="ട" next="ടാ"/>
+            <when state="ഺ" next="ഺാ"/>
+            <when state="ഺാ" output="ഺാ"/>
+            <when state="ഺൊ" output="ഺോ"/>
             <when state="ടാ" next="ടാഽ (വിസർഗ)"/>
             <when state="ടാഽ (വിസർഗ)" next="ടാഽഽ (വിസർഗ)"/>
             <when state="ടാഽഽ (വിസർഗ)" output="ടാഽഽ"/>
@@ -2963,7 +2966,6 @@
             <when state="ഹ്രൊ" output="ഹ്രോ"/>
             <when state="ാ" output="ാഽ"/>
             <when state="റ്റ" output="റ്റ"/>
-            <when state="ഺ" output="ഺ"/>
             <when state="ര്യാ" output="ര്യാ"/>
             <when state="ല​്യ" next="ല്യാ"/>
         </action>
@@ -3127,6 +3129,10 @@
             <when state="ഞ്രി" output="ഞ്രീ"/>
             <when state="ഞ്രെ" output="ഞ്രൈ"/>
             <when state="ട" next="ടി"/>
+            <when state="ഺ" next="ഺി"/>
+            <when state="ഺാ" output="ഺൈ"/>
+            <when state="ഺി" output="ഺീ"/>
+            <when state="ഺെ" output="ഺൈ"/>
             <when state="ടാ" output="ടൈ"/>
             <when state="ടി" output="ടീ"/>
             <when state="ടെ" output="ടൈ"/>
@@ -3558,6 +3564,10 @@
             <when state="ഞ്രു" output="ഞ്രൂ"/>
             <when state="ഞ്രൊ" output="ഞ്രൌ"/>
             <when state="ട" next="ടു"/>
+            <when state="ഺ" next="ഺു"/>
+            <when state="ഺാ" output="ഺോ"/>
+            <when state="ഺു" output="ഺൂ"/>
+            <when state="ഺൊ" output="ഺൌ"/>
             <when state="ടാ" output="ടോ"/>
             <when state="ടു" output="ടൂ"/>
             <when state="ടോ" output="ടൌ"/>
@@ -3908,6 +3918,8 @@
             <when state="ഞ്ഝ്രെ" output="ഞ്ഝ്രേ"/>
             <when state="ഞ്രെ" output="ഞ്രേ"/>
             <when state="ട" next="ടെ"/>
+            <when state="ഺ" next="ഺെ"/>
+            <when state="ഺെ" output="ഺേ"/>
             <when state="ടെ" output="ടേ"/>
             <when state="ട്രെ" output="ട്രേ"/>
             <when state="ഠ" next="ഠെ"/>
@@ -4125,6 +4137,8 @@
             <when state="ഞ്ഝ്രൊ" output="ഞ്ഝ്രോ"/>
             <when state="ഞ്രൊ" output="ഞ്രോ"/>
             <when state="ട" next="ടോ"/>
+            <when state="ഺ" next="ഺൊ"/>
+            <when state="ഺൊ" output="ഺോ"/>
             <when state="ടോ" output="ടോ"/>
             <when state="ട്രൊ" output="ട്രോ"/>
             <when state="ഠ" next="ഠോ"/>
@@ -4303,6 +4317,9 @@
         </action>
         <action id="ജ്ഞ 1">
             <when state="none" next="ജ്ഞ"/>
+        </action>
+        <action id="ഺ">
+            <when state="none" next="ഺ"/>
         </action>
         <action id="ട്">
             <when state="none" next="ത"/>
@@ -4497,9 +4514,6 @@
         <action id=".">
             <when state="none" output="."/>
             <when state="മ" output="ം."/>
-        </action>
-        <action id="ഺ">
-            <when state="none" next="ഺ"/>
         </action>
     </actions>
     <terminators>
@@ -4816,6 +4830,12 @@
         <when state="ഞ്രെ" output="ഞ്രെ"/>
         <when state="ഞ്രൊ" output="ഞ്രൊ"/>
         <when state="ട" output="ട്"/>
+        <when state="ഺ" output="ഺ്"/>
+        <when state="ഺാ" output="ഺ"/>
+        <when state="ഺി" output="ഺി"/>
+        <when state="ഺു" output="ഺു"/>
+        <when state="ഺെ" output="ഺെ"/>
+        <when state="ഺൊ" output="ഺൊ"/>
         <when state="ടാ" output="ട"/>
         <when state="ടാഽ (വിസർഗ)" output="ടാ"/>
         <when state="ടാഽഽ (വിസർഗ)" output="ടാഽ"/>
@@ -5303,7 +5323,6 @@
         <when state="െ" output="െ"/>
         <when state="ൊ" output="ൊ"/>
         <when state="റ്റ" output="റ്റ്"/>
-        <when state="ഺ" output="ഺ്"/>
         <when state="ര്യാ" output="ര്യ"/>
         <when state="ല​്യ" output="ല്യ്"/>
     </terminators>

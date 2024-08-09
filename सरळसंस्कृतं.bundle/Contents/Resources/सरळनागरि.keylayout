@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--संस्करण 1.0.1 रामॆण कृतम्&#x000A;स्थिरमप्रकाशितं संस्करणं दिनांकഃ : 5126-श्रावण-01&#x000A;Capslock On.&#x000A;&#x000A;वॆदोच्छारणं (स्वराഃ) —&#x003E; Shift + Options +&#x000A;1. उदात्त: &#x0027; (apostrophe)&#x000A;2. अनुदात्त: , (comma)&#x000A;3. स्वरित: - (minus)&#x000A;&#x000A;&#x000A;अनुपस्थिताः विशेषताः:&#x000A;&#x000A;सिद्धान्ततः, &#x0027;Options&#x0027; + त् = त्र्, किन्तु यतः जनाः आरम्भे &#x0027;T&#x0027; को ट् इति अपि प्रयुञ्जते, अत्र &#x0027;Options&#x0027; कुञ्जि इति प्रयुक्तः।&#x000A;व्यञ्चनानां परं र् इति द्विवारं दाबयन्तः सामान्यं योगं (यथा क्र्) किन्तु अधिकं तर्कं कार्यं न भविष्यति।&#x000A;Control+अक्षर=द्वि अक्षर (मॆक्बुक् यन्त्रे)।&#x000A;&#x000A;सन्धि नियमाः यथा न् इत्यस्य ण़् इत्यस्य परिवर्तनं यदा र् इत्यस्य परं। एतानि शब्द-प्रक्रमानुसारं (MS word इत्यादि) कर्तव्याः। ओपन सोर्स् शब्द-प्रक्रमाः नियमाः कृताः किन्तु अपि प्रकाशिताः न सन्ति यतः सर्वाः नियमाः अपि न युक्ताः। अयं विन्यास/व्याकरण निरीक्षणं इव कार्यं। अ+ा, उ+ु इत्यादि च शब्द-प्रक्रमेण सम्यक् करणीयम़्।&#x000A;&#x000A;यद्यपि कोऽपि अन्यः विशॆषताः आवश्यकाः सन्ति कृपया निवॆदनं कुरु।।-->
-<!--Last edited by Ukelele version 396 on 1946-05-17 at 03:30 (GMT-1)-->
+<!--Last edited by Ukelele version 396 on 1946-05-18 at 07:22 (GMT-1)-->
 <keyboard group="126" id="-20069" name="सरळनागरि" maxout="9">
     <layouts>
         <layout first="0" last="17" mapSet="16c" modifiers="f4"/>
@@ -390,7 +390,7 @@
             <key code="9" output="̌"/>
             <key code="10" output="±"/>
             <key code="11" output="̆"/>
-            <key code="12" action="ഺ"/>
+            <key code="12" action="ट़"/>
             <key code="13" output="̇"/>
             <key code="14" output="ै"/>
             <key code="15" action="a103"/>
@@ -2691,6 +2691,9 @@
             <when state="ञ्रा" output="ञ्रा"/>
             <when state="ञ्रॊ" output="ञ्रो"/>
             <when state="ट" next="टा"/>
+            <when state="ट़" next="ट़ा"/>
+            <when state="ट़ा" output="ट़ा"/>
+            <when state="ट़ॊ" output="ट़ो"/>
             <when state="टा" next="टाऽ (विसर्ग)"/>
             <when state="टाऽ (विसर्ग)" next="टाऽऽ (विसर्ग)"/>
             <when state="टाऽऽ (विसर्ग)" output="टाऽऽ"/>
@@ -2963,7 +2966,6 @@
             <when state="ह्रॊ" output="ह्रो"/>
             <when state="ा" output="ाऽ"/>
             <when state="റ്റ" output="റ്റ"/>
-            <when state="ഺ" output="ഺ"/>
             <when state="‍र्या" output="र्या"/>
             <when state="‍ल़्य" next="ल्या"/>
         </action>
@@ -3127,6 +3129,10 @@
             <when state="ञ्रि" output="ञ्री"/>
             <when state="ञ्रे" output="ञ्रै"/>
             <when state="ट" next="टि"/>
+            <when state="ट़" next="ट़ि"/>
+            <when state="ट़ा" output="ट़ै"/>
+            <when state="ट़ि" output="ट़ी"/>
+            <when state="ट़े" output="ट़ै"/>
             <when state="टा" output="टै"/>
             <when state="टि" output="टी"/>
             <when state="टे" output="टै"/>
@@ -3558,6 +3564,10 @@
             <when state="ञ्रु" output="ञ्रू"/>
             <when state="ञ्रॊ" output="ञ्रौ"/>
             <when state="ट" next="टु"/>
+            <when state="ट़" next="ट़ु"/>
+            <when state="ट़ा" output="ट़ो"/>
+            <when state="ट़ु" output="ट़ू"/>
+            <when state="ट़ॊ" output="ट़ौ"/>
             <when state="टा" output="टो"/>
             <when state="टु" output="टू"/>
             <when state="टो" output="टौ"/>
@@ -3908,6 +3918,8 @@
             <when state="ञ्झ्रे" output="ञ्झ्रॆ"/>
             <when state="ञ्रे" output="ञ्रॆ"/>
             <when state="ट" next="टे"/>
+            <when state="ट़" next="ट़े"/>
+            <when state="ट़े" output="ट़ॆ"/>
             <when state="टे" output="टॆ"/>
             <when state="ट्रे" output="ट्रॆ"/>
             <when state="ठ" next="ठे"/>
@@ -4125,6 +4137,8 @@
             <when state="ञ्झ्रॊ" output="ञ्झ्रो"/>
             <when state="ञ्रॊ" output="ञ्रो"/>
             <when state="ट" next="टो"/>
+            <when state="ट़" next="ट़ॊ"/>
+            <when state="ट़ॊ" output="ट़ो"/>
             <when state="टो" output="टो"/>
             <when state="ट्रॊ" output="ट्रो"/>
             <when state="ठ" next="ठो"/>
@@ -4304,6 +4318,9 @@
         <action id="ज्ञ 1">
             <when state="none" next="ज्ञ"/>
         </action>
+        <action id="ट़">
+            <when state="none" next="ट़"/>
+        </action>
         <action id="ट्">
             <when state="none" next="त"/>
             <when state="Anuswara" output="ण्ट्"/>
@@ -4473,7 +4490,7 @@
             <when state="क" output="क़्"/>
             <when state="ण" output="ण़्"/>
             <when state="ण्" next="ण"/>
-            <when state="त" next="ഺ"/>
+            <when state="त" next="ट़"/>
             <when state="न" next="ऩ"/>
             <when state="म" output="म़्"/>
             <when state="य" output="य़्"/>
@@ -4497,9 +4514,6 @@
         <action id="।">
             <when state="none" output="।"/>
             <when state="म" output="म़्।"/>
-        </action>
-        <action id="ഺ">
-            <when state="none" next="ഺ"/>
         </action>
     </actions>
     <terminators>
@@ -4816,6 +4830,12 @@
         <when state="ञ्रे" output="ञ्रे"/>
         <when state="ञ्रॊ" output="ञ्रॊ"/>
         <when state="ट" output="ट्"/>
+        <when state="ट़" output="ट़्"/>
+        <when state="ट़ा" output="ट़"/>
+        <when state="ट़ि" output="ट़ि"/>
+        <when state="ट़ु" output="ट़ु"/>
+        <when state="ट़े" output="ट़े"/>
+        <when state="ट़ॊ" output="ट़ॊ"/>
         <when state="टा" output="ट"/>
         <when state="टाऽ (विसर्ग)" output="टा"/>
         <when state="टाऽऽ (विसर्ग)" output="टाऽ"/>
@@ -5303,7 +5323,6 @@
         <when state="े" output="े"/>
         <when state="ॊ" output="ॊ"/>
         <when state="റ്റ" output="റ്റ്"/>
-        <when state="ഺ" output="ഺ्"/>
         <when state="‍र्या" output="र्य"/>
         <when state="‍ल़्य" output="ल्य्"/>
     </terminators>

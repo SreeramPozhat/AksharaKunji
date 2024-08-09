@@ -4,7 +4,7 @@
 #ബ്രാഹ്മിഭാഷപാക‍ൽ-ലേക്ക് മാറ്റുക. 
 
 ലിപി_നാമം = input("Enter the script name (without .py extension): ")  # Give the name of the file.
-#എൻറ്റെ ഉപയോഗത്തിന് 'സരളഗ്രന്ഥ'
+#എൻറ്റെ ഉപയോഗത്തിന് 'സരളഗ്രന്ഥ' അല്ലെങ്കി‍ൽ 'सरळनागरि'
 
 
 import os

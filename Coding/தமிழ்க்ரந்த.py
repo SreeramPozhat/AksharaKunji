@@ -31,7 +31,7 @@
     'ढ': '\u200Bஃட',    # Fourth letter: ஃ + ட + zero-width-space
     'ण': 'ண',
     
-    'ഺ': 'ഺ',           #Placeholder letter. This is a Malayalam letter which is alveolar த, usually written in Malayalam as റ്റ.
+    'ट़': 'ഺ',        #Placeholder letter. This is a Malayalam letter which is alveolar த/ட, usually written in Malayalam as റ്റ.Like the t in English word "Wet".
     'ऩ': 'ன',
 
     'त': 'த',           # Basic த
