@@ -296,7 +296,7 @@
             <key code="24" output="≠"/>
             <key code="25" output="̐"/>
             <key code="26" output="¶"/>
-            <key code="27" output="–"/>
+            <key code="27" output="൹"/>
             <key code="28" output="•"/>
             <key code="29" output="°"/>
             <key code="30" action="a100"/>
@@ -514,7 +514,7 @@
             <key code="24" output="≡"/>
             <key code="25" output="𓄂"/>
             <key code="26" output="¶"/>
-            <key code="27" output="–"/>
+            <key code="27" output="൹"/>
             <key code="28" output="卐"/>
             <key code="29" output="ॐ"/>
             <key code="30" action="a100"/>
@@ -626,7 +626,7 @@
             <key code="24" output="≠"/>
             <key code="25" output="ª"/>
             <key code="26" output="¶"/>
-            <key code="27" output="–"/>
+            <key code="27" output="൹"/>
             <key code="28" output="•"/>
             <key code="29" output="º"/>
             <key code="30" action="a100"/>
