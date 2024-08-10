@@ -1,0 +1,5 @@
+/Users/user/.config/karabiner/assets/complex_modifications
+
+
+
+This feature is to delete the whole grapheme cluster when pressing shift+ delete in Macbook. (This may be alt/shift + backspace in Windows)
