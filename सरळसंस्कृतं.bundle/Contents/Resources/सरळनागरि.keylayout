@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--संस्करण 1.0.1 रामॆण कृतम्&#x000A;स्थिरमप्रकाशितं संस्करणं दिनांकഃ : 5126-श्रावण-01&#x000A;Capslock On.&#x000A;&#x000A;वॆदोच्छारणं (स्वराഃ) —&#x003E; Shift + Options +&#x000A;1. उदात्त: &#x0027; (apostrophe)&#x000A;2. अनुदात्त: , (comma)&#x000A;3. स्वरित: - (minus)&#x000A;&#x000A;&#x000A;अनुपस्थिताः विशेषताः:&#x000A;&#x000A;&#x000A;सिद्धान्ततः, &#x0027;Options&#x0027; + त् = त्र्, किन्तु यतः जनाः आरम्भे &#x0027;T&#x0027; को ट् इति अपि प्रयुञ्जते, अत्र &#x0027;Options&#x0027; कुञ्जि इति प्रयुक्तः।&#x000A;व्यञ्चनानां परं र् इति द्विवारं दाबयन्तः सामान्यं योगं (यथा क्र्) किन्तु अधिकं तर्कं कार्यं न भविष्यति।&#x000A;Control+अक्षर=द्वि अक्षर (मॆक्बुक् यन्त्रे)।&#x000A;&#x000A;Grapheme cluster deletion with Shift+Delete (through Karabiner) - प्रकाशिताः&#x000A;सन्धि नियमाः यथा न् इत्यस्य ण़् इत्यस्य परिवर्तनं यदा र् इत्यस्य परं। एतानि शब्द-प्रक्रमानुसारं (MS word इत्यादि) कर्तव्याः। ओपन सोर्स् शब्द-प्रक्रमाः नियमाः कृताः किन्तु अपि प्रकाशिताः न सन्ति यतः सर्वाः नियमाः अपि न युक्ताः। &#x000A;&#x000A;यद्यपि कोऽपि अन्यः विशॆषताः आवश्यकाः सन्ति कृपया निवॆदनं कुरु।।-->
-<!--Last edited by Ukelele version 396 on 1946-05-24 at 14:31 (GMT-1)-->
-<keyboard group="126" id="-17882" name="सरळनागरि" maxout="9">
+<!--Last edited by Ukelele version 396 on 1946-05-24 at 21:18 (GMT-1)-->
+<keyboard group="126" id="-27642" name="सरळनागरि" maxout="9">
     <layouts>
         <layout first="0" last="17" mapSet="16c" modifiers="f4"/>
         <layout first="18" last="18" mapSet="994" modifiers="f4"/>
@@ -424,7 +424,7 @@
             <key code="43" output="◌॒"/>
             <key code="44" output="¿"/>
             <key code="45" action="ऩ 1"/>
-            <key code="46" output="̨"/>
+            <key code="46" output="ॉ"/>
             <key code="47" action="a63"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" output=" "/>
@@ -1361,6 +1361,7 @@
             <when state="ल्लाऽ (विसर्ग)" output="ल्लाऽऽ"/>
             <when state="ळ" output="ळा"/>
             <when state="ळाऽ (विसर्ग)" output="ळाऽऽ"/>
+            <when state="ळ्य" output="ळ्या"/>
             <when state="ळ्ळ" output="ळ्ळा"/>
             <when state="ळ्ळाऽ (विसर्ग)" output="ळ्ळाऽऽ"/>
             <when state="ऴ" output="ऴा"/>
@@ -1508,6 +1509,7 @@
             <when state="ल" output="लै"/>
             <when state="ल्ल" output="ल्लै"/>
             <when state="ळ" output="ळै"/>
+            <when state="ळ्य" output="ळ्यॆ"/>
             <when state="ळ्ळ" output="ळ्ळै"/>
             <when state="ऴ" output="ऴै"/>
             <when state="व" output="वै"/>
@@ -1809,6 +1811,7 @@
             <when state="ल" output="लौ"/>
             <when state="ल्ल" output="ल्लौ"/>
             <when state="ळ" output="ळौ"/>
+            <when state="ळ्य" output="ळ्यो"/>
             <when state="ळ्ळ" output="ळ्ळौ"/>
             <when state="ऴ" output="ऴौ"/>
             <when state="व" output="वौ"/>
@@ -1977,6 +1980,7 @@
             <when state="ल" output="लू"/>
             <when state="ल्ल" output="ल्लू"/>
             <when state="ळ" output="ळू"/>
+            <when state="ळ्य" output="ळ्यू"/>
             <when state="ळ्ळ" output="ळ्ळू"/>
             <when state="ऴ" output="ऴू"/>
             <when state="व" output="वू"/>
@@ -2889,6 +2893,7 @@
             <when state="लाऽऽ (विसर्ग)" output="लाऽऽ"/>
             <when state="लो" output="लो"/>
             <when state="ल्या" output="ल्या"/>
+            <when state="ल्यॊ" output="ल्यो"/>
             <when state="ल्रा" output="ल्रा"/>
             <when state="ल्रॊ" output="ल्रो"/>
             <when state="ल्ल" next="ल्ला"/>
@@ -2902,6 +2907,9 @@
             <when state="ळाऽ (विसर्ग)" next="ळाऽऽ (विसर्ग)"/>
             <when state="ळाऽऽ (विसर्ग)" output="ळाऽऽ"/>
             <when state="ळो" output="ळो"/>
+            <when state="ळ्य" next="ळ्या"/>
+            <when state="ळ्या" output="ळ्या"/>
+            <when state="ळ्यॊ" output="ळ्यो"/>
             <when state="ळ्रा" output="ळ्रा"/>
             <when state="ळ्रॊ" output="ळ्रो"/>
             <when state="ळ्ळ" next="ळ्ळा"/>
@@ -3327,6 +3335,8 @@
             <when state="ला" output="लै"/>
             <when state="लि" output="ली"/>
             <when state="ले" output="लै"/>
+            <when state="ल्या" output="ल्यै"/>
+            <when state="ल्ये" output="ल्यॆ"/>
             <when state="ल्रा" output="ल्रै"/>
             <when state="ल्रि" output="ल्री"/>
             <when state="ल्रे" output="ल्रै"/>
@@ -3338,6 +3348,7 @@
             <when state="ळा" output="ळै"/>
             <when state="ळि" output="ळी"/>
             <when state="ळे" output="ळै"/>
+            <when state="ळ्या" output="ळ्यै"/>
             <when state="ळ्रा" output="ळ्रै"/>
             <when state="ळ्रि" output="ळ्री"/>
             <when state="ळ्रे" output="ळ्रै"/>
@@ -3763,6 +3774,9 @@
             <when state="ला" output="लो"/>
             <when state="लु" output="लू"/>
             <when state="लो" output="लौ"/>
+            <when state="ल्या" output="ल्यो"/>
+            <when state="ल्यु" output="ल्यू"/>
+            <when state="ल्यॊ" output="ल्यौ"/>
             <when state="ल्रा" output="ल्रो"/>
             <when state="ल्रु" output="ल्रू"/>
             <when state="ल्रॊ" output="ल्रौ"/>
@@ -3774,6 +3788,10 @@
             <when state="ळा" output="ळो"/>
             <when state="ळु" output="ळू"/>
             <when state="ळो" output="ळौ"/>
+            <when state="ळ्य" next="ळ्यु"/>
+            <when state="ळ्या" output="ळ्यो"/>
+            <when state="ळ्यु" output="ळ्यू"/>
+            <when state="ळ्यॊ" output="ळ्यौ"/>
             <when state="ळ्रा" output="ळ्रो"/>
             <when state="ळ्रु" output="ळ्रू"/>
             <when state="ळ्रॊ" output="ळ्रौ"/>
@@ -3838,6 +3856,7 @@
             <when state="ु" output="ू"/>
             <when state="റ്റ" output="റ്റു"/>
             <when state="‍र्या" output="र्यो"/>
+            <when state="‍ल़्य" next="ल्यु"/>
         </action>
         <action id="ए">
             <when state="none" next="ए"/>
@@ -4021,6 +4040,8 @@
             <when state="ल्ले" output="ल्लॆ"/>
             <when state="ळ" next="ळे"/>
             <when state="ळे" output="ळॆ"/>
+            <when state="ळ्य" next="ळ्ये"/>
+            <when state="ळ्ये" output="ळ्यॆ"/>
             <when state="ळ्रे" output="ळ्रॆ"/>
             <when state="ळ्ळ" next="ळ्ळे"/>
             <when state="ळ्ळे" output="ळ्ळॆ"/>
@@ -4241,6 +4262,8 @@
             <when state="ल्लो" output="ल्लो"/>
             <when state="ळ" next="ळो"/>
             <when state="ळो" output="ळो"/>
+            <when state="ळ्य" next="ळ्यॊ"/>
+            <when state="ळ्यॊ" output="ळ्यो"/>
             <when state="ळ्रॊ" output="ळ्रो"/>
             <when state="ळ्ळ" next="ळ्ळो"/>
             <when state="ळ्ळो" output="ळ्ळो"/>
@@ -4393,6 +4416,7 @@
             <when state="none" next="य"/>
             <when state="र्" next="र्य"/>
             <when state="ल" next="‍ल़्य"/>
+            <when state="ळ" next="ळ्य"/>
         </action>
         <action id="र्">
             <when state="none" next="र्"/>
@@ -5186,6 +5210,7 @@
         <when state="ले" output="ले"/>
         <when state="लो" output="लॊ"/>
         <when state="ल्या" output="ल्य"/>
+        <when state="ल्यु" output="ल्यु"/>
         <when state="ल्ये" output="ल्ये"/>
         <when state="ल्यॊ" output="ल्यॊ"/>
         <when state="ल्रा" output="ल्र"/>
@@ -5209,6 +5234,11 @@
         <when state="ळु" output="ळु"/>
         <when state="ळे" output="ळे"/>
         <when state="ळो" output="ळॊ"/>
+        <when state="ळ्य" output="ळ्य्"/>
+        <when state="ळ्या" output="ळ्य"/>
+        <when state="ळ्यु" output="ळ्यु"/>
+        <when state="ळ्ये" output="ळ्ये"/>
+        <when state="ळ्यॊ" output="ळ्यॊ"/>
         <when state="ळ्रा" output="ळ्र"/>
         <when state="ळ्रि" output="ळ्रि"/>
         <when state="ळ्रु" output="ळ्रु"/>
