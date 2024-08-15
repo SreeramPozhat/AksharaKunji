@@ -1,0 +1,23 @@
+1. To make Capslock turn auto-On upon system wake.
+2. To make shift+delete to backspace remove the entire grapheme (ligature) instead of character by character.
+
+
+After adding the necessary codes to Lua, open Hammerspoon console, and run:
+hs.reload()
+
+Save the codes to the Lua file using Terminal.
+
+To open the Lua file using Terminal to edit, run the code: 
+nano ~/.hammerspoon/init.lua
+
+If you do not have Lua file created, then run the following in Terminal:
+mkdir -p ~/.hammerspoon
+touch ~/.hammerspoon/init.lua
+
+This step comes after installing Hammerspoon. Find the app online and paste it in Applications Folder.
+
+
+
+PS: If you use the Shift+delete code using Hammerspoon, then you do not need to do the same thing using Karabiner. Aka, you do not need Karabiner itself. Though, if you are leveraging some high level changes in keyboard scripting, Karabiner is handy. For low level, use Ukulele. For using script for System itself, use Hammerspoon. Hence, use Ukulele as much as possible. If Ukulele can't accomodate, then use Karabiner, and if Karabiner cannot, then use Hammerspoon. 
+
+I am using Hammerspoon instead of Karabiner for Shift+Delete as the capslock light button turns on upon waking up (without capslock function being actually on) when using Karabiner.

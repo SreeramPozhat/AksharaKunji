@@ -1,0 +1,28 @@
+-- Activate Caps Lock state on wake or screen events
+caffeinateWatcher = hs.caffeinate.watcher.new(function(event)
+    if event == hs.caffeinate.watcher.systemDidWake or
+       event == hs.caffeinate.watcher.screensDidUnlock or
+       event == hs.caffeinate.watcher.screensaverDidStart or
+       event == hs.caffeinate.watcher.screensaverDidStop then
+       
+        -- Check current Caps Lock state
+        currentCapsLockState = hs.hid.capslock.get()
+        
+        -- If Caps Lock is not on, toggle it off and then on
+        if not currentCapsLockState then
+            hs.hid.capslock.set(false)  -- Ensure it's off
+            hs.hid.capslock.set(true)   -- Turn it on, LED should light up
+        end
+    end
+end)
+
+caffeinateWatcher:start()
+
+-- Hammerspoon script to remap Shift + Delete to Left Arrow + Forward Delete
+hs.hotkey.bind({"shift"}, "delete", function()
+    -- Simulate Left Arrow key press
+    hs.eventtap.keyStroke({}, "left", 0)  -- No delay
+    -- Simulate Forward Delete using key code for forward delete
+    hs.eventtap.event.newKeyEvent({}, "forwarddelete", true):post()
+    hs.eventtap.event.newKeyEvent({}, "forwarddelete", false):post()
+end)
