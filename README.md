@@ -12,4 +12,6 @@ We need to develop additional versions of this for: Windows laptop, Android keyb
 
 
 इदम़् कार्यम़् प्रारम्बितम् (पोऴत्) श्रीराम मॆनोन् द्वारा । The project is created by (Pozhat) Sreeram Menon.
+श्रीरामेण सह अनिर्बणेन (कोलकाता) निर्मितं कीबोर्ड्-आच्छादन-आलेख्यम्। Keyboard sticker design (.PDF/.ai) created by Sreeram along with Anirban (Kolkata).
+
 ये जनाः संस्कृतस्य महति प्रयोजने रुचिं वहन्ति, ते सम्पर्कं करोतु।
