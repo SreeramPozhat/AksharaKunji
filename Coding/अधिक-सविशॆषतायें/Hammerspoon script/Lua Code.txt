@@ -1,28 +1,43 @@
--- Activate Caps Lock state on wake or screen events
+-- Activate Caps Lock state on wake
 caffeinateWatcher = hs.caffeinate.watcher.new(function(event)
+    -- Log the triggered event in the console
+    hs.console.printStyledtext("Event triggered: " .. tostring(event) .. "\n")
+
+    -- Check for wake-up or screensaver stop events
     if event == hs.caffeinate.watcher.systemDidWake or
        event == hs.caffeinate.watcher.screensDidUnlock or
-       event == hs.caffeinate.watcher.screensaverDidStart or
        event == hs.caffeinate.watcher.screensaverDidStop then
-       
-        -- Check current Caps Lock state
-        currentCapsLockState = hs.hid.capslock.get()
-        
-        -- If Caps Lock is not on, toggle it off and then on
-        if not currentCapsLockState then
-            hs.hid.capslock.set(false)  -- Ensure it's off
-            hs.hid.capslock.set(true)   -- Turn it on, LED should light up
+
+        -- Forcefully reset Caps Lock regardless of initial state
+        hs.notify.new({title="Hammerspoon", informativeText="Force resetting Caps Lock ON"}):send()
+
+        -- Turn Caps Lock off and then on to ensure the correct state
+        hs.hid.capslock.set(false)
+        hs.timer.usleep(100000)  -- delay (100 ms)
+        hs.hid.capslock.set(true)
+
+        -- Log and notify the final state of Caps Lock
+        local finalCapsLockState = hs.hid.capslock.get()
+        hs.console.printStyledtext("Final Caps Lock State after reset: " .. tostring(finalCapsLockState) .. "\n")
+        if finalCapsLockState then
+            hs.notify.new({title="Hammerspoon", informativeText="Caps Lock is now ON with light"}):send()
+        else
+            hs.notify.new({title="Hammerspoon", informativeText="Failed to turn Caps Lock ON!"}):send()
         end
     end
 end)
 
+-- Start the caffeinate watcher
 caffeinateWatcher:start()
+
 
 -- Hammerspoon script to remap Shift + Delete to Left Arrow + Forward Delete
 hs.hotkey.bind({"shift"}, "delete", function()
     -- Simulate Left Arrow key press
-    hs.eventtap.keyStroke({}, "left", 0)  -- No delay
-    -- Simulate Forward Delete using key code for forward delete
+    hs.eventtap.keyStroke({}, "left",0)
+
+    -- Simulate Forward Delete using key code 117 (which represents forward delete)
     hs.eventtap.event.newKeyEvent({}, "forwarddelete", true):post()
     hs.eventtap.event.newKeyEvent({}, "forwarddelete", false):post()
 end)
+

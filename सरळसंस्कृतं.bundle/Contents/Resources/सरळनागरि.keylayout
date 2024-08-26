@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--संस्करण 1.0.1 रामॆण कृतम्&#x000A;स्थिरमप्रकाशितं संस्करणं दिनांकഃ : 5126-श्रावण-01&#x000A;Capslock On.&#x000A;&#x000A;वॆदोच्छारणं (स्वराഃ) —&#x003E; Shift + Options +&#x000A;1. उदात्त: &#x0027; (apostrophe)&#x000A;2. अनुदात्त: , (comma)&#x000A;3. स्वरित: - (minus)&#x000A;&#x000A;&#x000A;अनुपस्थिताः विशेषताः:&#x000A;&#x000A;&#x000A;सिद्धान्ततः, &#x0027;Options&#x0027; + त् = त्र्, किन्तु यतः जनाः आरम्भे &#x0027;T&#x0027; को ट् इति अपि प्रयुञ्जते, अत्र &#x0027;Options&#x0027; कुञ्जि इति प्रयुक्तः।&#x000A;व्यञ्चनानां परं र् इति द्विवारं दाबयन्तः सामान्यं योगं (यथा क्र्) किन्तु अधिकं तर्कं कार्यं न भविष्यति।&#x000A;Control+अक्षर=द्वि अक्षर (मॆक्बुक् यन्त्रे)।&#x000A;&#x000A;Grapheme cluster deletion with Shift+Delete (through Karabiner) - प्रकाशिताः&#x000A;सन्धि नियमाः यथा न् इत्यस्य ण़् इत्यस्य परिवर्तनं यदा र् इत्यस्य परं। एतानि शब्द-प्रक्रमानुसारं (MS word इत्यादि) कर्तव्याः। ओपन सोर्स् शब्द-प्रक्रमाः नियमाः कृताः किन्तु अपि प्रकाशिताः न सन्ति यतः सर्वाः नियमाः अपि न युक्ताः। &#x000A;&#x000A;यद्यपि कोऽपि अन्यः विशॆषताः आवश्यकाः सन्ति कृपया निवॆदनं कुरु।।-->
-<!--Last edited by Ukelele version 396 on 1946-05-28 at 17:10 (GMT-1)-->
+<!--संस्करण 1.0.1 रामॆण कृतम्&#x000A;स्थिरमप्रकाशितं संस्करणं दिनांकഃ : 5126-श्रावण-01&#x000A;Capslock On.&#x000A;&#x000A;वॆदोच्छारणं (स्वराഃ) —&#x003E; Shift + Options +&#x000A;1. उदात्त: &#x0027; (apostrophe)&#x000A;2. अनुदात्त: , (comma)&#x000A;3. स्वरित: - (minus)&#x000A;&#x000A;&#x000A;अनुपस्थिताः विशेषताः:&#x000A;&#x000A;ट, ठ, ड, ढ - एषु सर्वेषु, ऋकारस्य क्रिया कथञ्चित् सम्पूर्णतया न संपादिता।&#x000A;&#x000A;सिद्धान्ततः, &#x0027;Options&#x0027; + त् = त्र्, किन्तु यतः जनाः आरम्भे &#x0027;T&#x0027; को ट् इति अपि प्रयुञ्जते, अत्र &#x0027;Options&#x0027; कुञ्जि इति प्रयुक्तः।&#x000A;व्यञ्चनानां परं र् इति द्विवारं दाबयन्तः सामान्यं योगं (यथा क्र्) किन्तु अधिकं तर्कं कार्यं न भविष्यति।&#x000A;Control+अक्षर=द्वि अक्षर (मॆक्बुक् यन्त्रे)।&#x000A;&#x000A;Grapheme cluster deletion with Shift+Delete (through Karabiner) - प्रकाशिताः&#x000A;सन्धि नियमाः यथा न् इत्यस्य ण़् इत्यस्य परिवर्तनं यदा र् इत्यस्य परं। एतानि शब्द-प्रक्रमानुसारं (MS word इत्यादि) कर्तव्याः। ओपन सोर्स् शब्द-प्रक्रमाः नियमाः कृताः किन्तु अपि प्रकाशिताः न सन्ति यतः सर्वाः नियमाः अपि न युक्ताः। &#x000A;&#x000A;यद्यपि कोऽपि अन्यः विशॆषताः आवश्यकाः सन्ति कृपया निवॆदनं कुरु।।-->
+<!--Last edited by Ukelele version 396 on 1946-06-04 at 15:19 (GMT-1)-->
 <keyboard group="126" id="-27642" name="सरळनागरि" maxout="9">
     <layouts>
         <layout first="0" last="17" mapSet="16c" modifiers="f4"/>
@@ -2809,6 +2809,7 @@
             <when state="ध्रॊ" output="ध्रो"/>
             <when state="न" next="ना"/>
             <when state="ऩ्ऱ्र" next="ऩ्ऱ्रा"/>
+            <when state="ऩ्ऱ्रा" output="ऩ्ऱ्रा"/>
             <when state="ऩ्ऱ्रो" output="ऩ्ऱ्रो"/>
             <when state="ना" next="नाऽ (विसर्ग)"/>
             <when state="नाऽ (विसर्ग)" next="नाऽऽ (विसर्ग)"/>
@@ -4433,6 +4434,14 @@
             <when state="ज" next="जृ"/>
             <when state="ज़" output="ज़ृ"/>
             <when state="जृ" output="ज्र्"/>
+            <when state="ट" next="टृ"/>
+            <when state="टृ" output="ट्र"/>
+            <when state="ठ" next="ठृ"/>
+            <when state="ठृ" output="ठ्र"/>
+            <when state="ड" next="डृ"/>
+            <when state="डृ" output="ड्र"/>
+            <when state="ढ" next="ढृ"/>
+            <when state="ढृ" output="ढ्र"/>
             <when state="त" next="तृ"/>
             <when state="तृ" output="त्र्"/>
             <when state="थ" next="थृ"/>
@@ -4867,6 +4876,7 @@
         <when state="टाऽऽ (विसर्ग)" output="टाऽ"/>
         <when state="टि" output="टि"/>
         <when state="टु" output="टु"/>
+        <when state="टृ" output="टृ"/>
         <when state="टे" output="टे"/>
         <when state="टो" output="टॊ"/>
         <when state="ट्रा" output="ट्र"/>
@@ -4880,6 +4890,7 @@
         <when state="ठाऽऽ (विसर्ग)" output="ठाऽ"/>
         <when state="ठि" output="ठि"/>
         <when state="ठु" output="ठु"/>
+        <when state="ठृ" output="ठृ"/>
         <when state="ठे" output="ठे"/>
         <when state="ठो" output="ठॊ"/>
         <when state="ठ्रा" output="ठ्र"/>
@@ -4893,6 +4904,7 @@
         <when state="डाऽऽ (विसर्ग)" output="डाऽ"/>
         <when state="डि" output="डि"/>
         <when state="डु" output="डु"/>
+        <when state="डृ" output="डृ"/>
         <when state="डे" output="डे"/>
         <when state="डो" output="डॊ"/>
         <when state="ड्रा" output="ड्र"/>
@@ -4906,6 +4918,7 @@
         <when state="ढाऽऽ (विसर्ग)" output="ढाऽ"/>
         <when state="ढि" output="ढि"/>
         <when state="ढु" output="ढु"/>
+        <when state="ढृ" output="ढृ"/>
         <when state="ढे" output="ढे"/>
         <when state="ढो" output="ढॊ"/>
         <when state="ढ्रा" output="ढ्र"/>

@@ -3,7 +3,7 @@
 
 #ബ്രാഹ്മിഭാഷപാക‍ൽ-ലേക്ക് മാറ്റുക. 
 
-ലിപി_നാമം = input("Enter the script name (without .py extension): ")  # लिपि वालॆ फयल का नाम दीजिये.
+ലിപി_നാമം = input("लिपि वालॆ फयल का नाम दीजिये (बिना .py extension): ") #Input file name of the language you desire to create
 #എൻറ്റെ ഉപയോഗത്തിന് 'സരളഗ്രന്ഥ' അല്ലെങ്കി‍ൽ 'सरळनागरि'
 
 
