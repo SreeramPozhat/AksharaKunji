@@ -1,1 +1,4 @@
 git_push.sh
+
+# Folder to ignore
+Not-for-public/
