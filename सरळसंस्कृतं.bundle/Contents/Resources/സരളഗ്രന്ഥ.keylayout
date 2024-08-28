@@ -1390,8 +1390,8 @@
             <when state="ഹാഽ (വിസർഗ)" output="ഹാഽഽ"/>
             <when state="ഹൃ" output="ഹ്രാ"/>
             <when state="ാ" output="ാഽഽ"/>
-            <when state="ൻറ്റ" output="ൻറ്റാ"/>
-            <when state="ൻറ്റാഽ (വിസർഗ)" output="ൻറ്റാഽഽ"/>
+            <when state="ൻ്റ" output="ൻ്റാ"/>
+            <when state="ൻ്റാഽ (വിസർഗ)" output="ൻ്റാഽഽ"/>
             <when state="ർ" output="രാ"/>
         </action>
         <action id="a15">
@@ -1531,7 +1531,7 @@
             <when state="സൃ" output="സ്രൈ"/>
             <when state="ഹ" output="ഹൈ"/>
             <when state="ഹൃ" output="ഹ്രൈ"/>
-            <when state="ൻറ്റ" output="ൻറ്റൈ"/>
+            <when state="ൻ്റ" output="ൻ്റൈ"/>
             <when state="ർ" output="രൈ"/>
         </action>
         <action id="a19">
@@ -1671,7 +1671,7 @@
             <when state="സൃ" output="സ്രീ"/>
             <when state="ഹ" output="ഹീ"/>
             <when state="ഹൃ" output="ഹ്രീ"/>
-            <when state="ൻറ്റ" output="ൻറ്റീ"/>
+            <when state="ൻ്റ" output="ൻ്റീ"/>
             <when state="ർ" output="രീ"/>
         </action>
         <action id="a23">
@@ -1835,7 +1835,7 @@
             <when state="സൃ" output="സ്രൌ"/>
             <when state="ഹ" output="ഹൌ"/>
             <when state="ഹൃ" output="ഹ്രൌ"/>
-            <when state="ൻറ്റ" output="ൻറ്റൌ"/>
+            <when state="ൻ്റ" output="ൻ്റൌ"/>
             <when state="ർ" output="രൌ"/>
         </action>
         <action id="a29">
@@ -2006,7 +2006,7 @@
             <when state="സൃ" output="സ്രൂ"/>
             <when state="ഹ" output="ഹൂ"/>
             <when state="ഹൃ" output="ഹ്രൂ"/>
-            <when state="ൻറ്റ" output="ൻറ്റൂ"/>
+            <when state="ൻ്റ" output="ൻ്റൂ"/>
             <when state="ർ" output="രൂ"/>
         </action>
         <action id="a35">
@@ -2562,7 +2562,7 @@
             <when state="ർ" output="ര്"/>
         </action>
         <action id="ം">
-            <when state="none" next="ൻറ്റ"/>
+            <when state="none" next="ൻ്റ"/>
         </action>
         <action id="അ">
             <when state="none" next="അ"/>
@@ -3003,9 +3003,9 @@
             <when state="ഺാ" output="ഺാ"/>
             <when state="ഺൊ" output="ഺോ"/>
             <when state="ാ" output="ാഽ"/>
-            <when state="ൻറ്റ" next="ൻറ്റാ"/>
-            <when state="ൻറ്റാ" output="ൻറ്റാ"/>
-            <when state="ൻറ്റോ" output="ൻറ്റോ"/>
+            <when state="ൻ്റ" next="ൻ്റാ"/>
+            <when state="ൻ്റാ" output="ൻ്റാ"/>
+            <when state="ൻ്റോ" output="ൻ്റോ"/>
             <when state="ർ" next="ര"/>
             <when state="ൽരാ" output="ൽരാ"/>
             <when state="ൽരൊ" output="ൽരോ"/>
@@ -3441,10 +3441,10 @@
             <when state="ഺി" output="ഺീ"/>
             <when state="ഺെ" output="ഺൈ"/>
             <when state="ി" output="ീ"/>
-            <when state="ൻറ്റ" next="ൻറ്റി"/>
-            <when state="ൻറ്റാ" output="ൻറ്റൈ"/>
-            <when state="ൻറ്റി" output="ൻറ്റീ"/>
-            <when state="ൻറ്റെ" output="ൻറ്റൈ"/>
+            <when state="ൻ്റ" next="ൻ്റി"/>
+            <when state="ൻ്റാ" output="ൻ്റൈ"/>
+            <when state="ൻ്റി" output="ൻ്റീ"/>
+            <when state="ൻ്റെ" output="ൻ്റൈ"/>
             <when state="ർ" next="രി"/>
             <when state="ൽരാ" output="ൽരൈ"/>
             <when state="ൽരി" output="ൽരീ"/>
@@ -3889,10 +3889,10 @@
             <when state="ഺു" output="ഺൂ"/>
             <when state="ഺൊ" output="ഺൌ"/>
             <when state="ു" output="ൂ"/>
-            <when state="ൻറ്റ" next="ൻറ്റു"/>
-            <when state="ൻറ്റാ" output="ൻറ്റോ"/>
-            <when state="ൻറ്റു" output="ൻറ്റൂ"/>
-            <when state="ൻറ്റോ" output="ൻറ്റൌ"/>
+            <when state="ൻ്റ" next="ൻ്റു"/>
+            <when state="ൻ്റാ" output="ൻ്റോ"/>
+            <when state="ൻ്റു" output="ൻ്റൂ"/>
+            <when state="ൻ്റോ" output="ൻ്റൌ"/>
             <when state="ർ" next="രു"/>
             <when state="ൽരാ" output="ൽരോ"/>
             <when state="ൽരു" output="ൽരൂ"/>
@@ -4116,8 +4116,8 @@
             <when state="ഺ" next="ഺെ"/>
             <when state="ഺെ" output="ഺേ"/>
             <when state="െ" output="േ"/>
-            <when state="ൻറ്റ" next="ൻറ്റെ"/>
-            <when state="ൻറ്റെ" output="ൻറ്റേ"/>
+            <when state="ൻ്റ" next="ൻ്റെ"/>
+            <when state="ൻ്റെ" output="ൻ്റേ"/>
             <when state="ർ" next="രെ"/>
             <when state="ൽരെ" output="ൽരേ"/>
             <when state="ൾരെ" output="ൾരേ"/>
@@ -4342,8 +4342,8 @@
             <when state="ഺ" next="ഺൊ"/>
             <when state="ഺൊ" output="ഺോ"/>
             <when state="ൊ" output="ോ"/>
-            <when state="ൻറ്റ" next="ൻറ്റോ"/>
-            <when state="ൻറ്റോ" output="ൻറ്റോ"/>
+            <when state="ൻ്റ" next="ൻ്റോ"/>
+            <when state="ൻ്റോ" output="ൻ്റോ"/>
             <when state="ർ" next="രൊ"/>
             <when state="ൽരൊ" output="ൽരോ"/>
             <when state="ൾരൊ" output="ൾരോ"/>
@@ -4433,7 +4433,7 @@
             <when state="none" next="ന"/>
         </action>
         <action id="ഩ">
-            <when state="none" next="ൻറ്റ"/>
+            <when state="none" next="ൻ്റ"/>
         </action>
         <action id="ഩ 1">
             <when state="none" next="ഩ"/>
@@ -5381,14 +5381,14 @@
         <when state="ു" output="ു"/>
         <when state="െ" output="െ"/>
         <when state="ൊ" output="ൊ"/>
-        <when state="ൻറ്റ" output="ൻ്റ്"/>
-        <when state="ൻറ്റാ" output="ൻറ്റ"/>
-        <when state="ൻറ്റാഽ (വിസർഗ)" output="ൻറ്റാ"/>
-        <when state="ൻറ്റാഽഽ (വിസർഗ)" output="ൻറ്റാഽ"/>
-        <when state="ൻറ്റി" output="ൻറ്റി"/>
-        <when state="ൻറ്റു" output="ൻറ്റു"/>
-        <when state="ൻറ്റെ" output="ൻറ്റെ"/>
-        <when state="ൻറ്റോ" output="ൻറ്റൊ"/>
+        <when state="ൻ്റ" output="ൻ്റ്"/>
+        <when state="ൻ്റാ" output="ൻ്റ"/>
+        <when state="ൻ്റാഽ (വിസർഗ)" output="ൻ്റാ"/>
+        <when state="ൻ്റാഽഽ (വിസർഗ)" output="ൻ്റാഽ"/>
+        <when state="ൻ്റി" output="ൻ്റി"/>
+        <when state="ൻ്റു" output="ൻ്റു"/>
+        <when state="ൻ്റെ" output="ൻ്റെ"/>
+        <when state="ൻ്റോ" output="ൻ്റൊ"/>
         <when state="ർ" output="ൎ"/>
         <when state="ൽരാ" output="ൽര"/>
         <when state="ൽരി" output="ൽരി"/>
