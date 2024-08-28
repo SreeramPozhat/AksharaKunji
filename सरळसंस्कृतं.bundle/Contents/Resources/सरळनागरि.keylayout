@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--संस्करण 1.0.1 रामॆण कृतम्&#x000A;स्थिरमप्रकाशितं संस्करणं दिनांकഃ : 5126-श्रावण-01&#x000A;Capslock On.&#x000A;&#x000A;वॆदोच्छारणं (स्वराഃ) —&#x003E; Shift + Options +&#x000A;1. उदात्त: &#x0027; (apostrophe)&#x000A;2. अनुदात्त: , (comma)&#x000A;3. स्वरित: - (minus)&#x000A;&#x000A;&#x000A;अनुपस्थिताः विशेषताः:&#x000A;&#x000A;ट, ठ, ड, ढ - एषु सर्वेषु, ऋकारस्य क्रिया कथञ्चित् सम्पूर्णतया न संपादिता।&#x000A;&#x000A;सिद्धान्ततः, &#x0027;Options&#x0027; + त् = त्र्, किन्तु यतः जनाः आरम्भे &#x0027;T&#x0027; को ट् इति अपि प्रयुञ्जते, अत्र &#x0027;Options&#x0027; कुञ्जि इति प्रयुक्तः।&#x000A;व्यञ्चनानां परं र् इति द्विवारं दाबयन्तः सामान्यं योगं (यथा क्र्) किन्तु अधिकं तर्कं कार्यं न भविष्यति।&#x000A;Control+अक्षर=द्वि अक्षर (मॆक्बुक् यन्त्रे)।&#x000A;&#x000A;Grapheme cluster deletion with Shift+Delete (through Karabiner) - प्रकाशिताः&#x000A;सन्धि नियमाः यथा न् इत्यस्य ण़् इत्यस्य परिवर्तनं यदा र् इत्यस्य परं। एतानि शब्द-प्रक्रमानुसारं (MS word इत्यादि) कर्तव्याः। ओपन सोर्स् शब्द-प्रक्रमाः नियमाः कृताः किन्तु अपि प्रकाशिताः न सन्ति यतः सर्वाः नियमाः अपि न युक्ताः। &#x000A;&#x000A;यद्यपि कोऽपि अन्यः विशॆषताः आवश्यकाः सन्ति कृपया निवॆदनं कुरु।।-->
-<!--Last edited by Ukelele version 396 on 1946-06-04 at 18:49 (GMT-1)-->
+<!--Last edited by Ukelele version 396 on 1946-06-06 at 11:51 (GMT-1)-->
 <keyboard group="126" id="-29765" name="सरळनागरि" maxout="9">
     <layouts>
         <layout first="0" last="17" mapSet="16c" modifiers="f4"/>
@@ -1294,6 +1294,7 @@
             <when state="ञ्झाऽ (विसर्ग)" output="ञ्झाऽऽ"/>
             <when state="ट" output="टा"/>
             <when state="टाऽ (विसर्ग)" output="टाऽऽ"/>
+            <when state="टृ" output="ट्रा"/>
             <when state="ठ" output="ठा"/>
             <when state="ठाऽ (विसर्ग)" output="ठाऽऽ"/>
             <when state="ड" output="डा"/>
@@ -1468,6 +1469,7 @@
             <when state="ञ्ज" output="ञ्जै"/>
             <when state="ञ्झ" output="ञ्झै"/>
             <when state="ट" output="टै"/>
+            <when state="टृ" output="ट्रॆ"/>
             <when state="ठ" output="ठै"/>
             <when state="ड" output="डै"/>
             <when state="ढ" output="ढै"/>
@@ -1609,6 +1611,7 @@
             <when state="ञ्ज" output="ञ्जी"/>
             <when state="ञ्झ" output="ञ्झी"/>
             <when state="ट" output="टी"/>
+            <when state="टृ" output="ट्री"/>
             <when state="ठ" output="ठी"/>
             <when state="ड" output="डी"/>
             <when state="ढ" output="ढी"/>
@@ -1770,6 +1773,7 @@
             <when state="ञ्ज" output="ञ्जौ"/>
             <when state="ञ्झ" output="ञ्झौ"/>
             <when state="ट" output="टौ"/>
+            <when state="टृ" output="ट्रो"/>
             <when state="ठ" output="ठौ"/>
             <when state="ड" output="डौ"/>
             <when state="ढ" output="ढौ"/>
@@ -1862,6 +1866,8 @@
             <when state="5" output="Ŗ"/>
             <when state="8" output="Ȑ"/>
             <when state="क" output="क्र्"/>
+            <when state="ठ" next="ठृ"/>
+            <when state="ढ" next="ढृ"/>
         </action>
         <action id="a32">
             <when state="none" next="श"/>
@@ -1939,6 +1945,7 @@
             <when state="ञ्ज" output="ञ्जू"/>
             <when state="ञ्झ" output="ञ्झू"/>
             <when state="ट" output="टू"/>
+            <when state="टृ" output="ट्रू"/>
             <when state="ठ" output="ठू"/>
             <when state="ड" output="डू"/>
             <when state="ढ" output="ढू"/>
@@ -2701,6 +2708,7 @@
             <when state="टा" next="टाऽ (विसर्ग)"/>
             <when state="टाऽ (विसर्ग)" next="टाऽऽ (विसर्ग)"/>
             <when state="टाऽऽ (विसर्ग)" output="टाऽऽ"/>
+            <when state="टृ" next="ट्रा"/>
             <when state="टो" output="टो"/>
             <when state="ट्रा" output="ट्रा"/>
             <when state="ट्रॊ" output="ट्रो"/>
@@ -2708,6 +2716,7 @@
             <when state="ठा" next="ठाऽ (विसर्ग)"/>
             <when state="ठाऽ (विसर्ग)" next="ठाऽऽ (विसर्ग)"/>
             <when state="ठाऽऽ (विसर्ग)" output="ठाऽऽ"/>
+            <when state="ठृ" next="ठ्रा"/>
             <when state="ठो" output="ठो"/>
             <when state="ठ्रा" output="ठ्रा"/>
             <when state="ठ्रॊ" output="ठ्रो"/>
@@ -2715,6 +2724,7 @@
             <when state="डा" next="डाऽ (विसर्ग)"/>
             <when state="डाऽ (विसर्ग)" next="डाऽऽ (विसर्ग)"/>
             <when state="डाऽऽ (विसर्ग)" output="डाऽऽ"/>
+            <when state="डृ" next="ड्रा"/>
             <when state="डो" output="डो"/>
             <when state="ड्रा" output="ड्रा"/>
             <when state="ड्रॊ" output="ड्रो"/>
@@ -2722,6 +2732,7 @@
             <when state="ढा" next="ढाऽ (विसर्ग)"/>
             <when state="ढाऽ (विसर्ग)" next="ढाऽऽ (विसर्ग)"/>
             <when state="ढाऽऽ (विसर्ग)" output="ढाऽऽ"/>
+            <when state="ढृ" next="ढ्रा"/>
             <when state="ढो" output="ढो"/>
             <when state="ढ्रा" output="ढ्रा"/>
             <when state="ढ्रॊ" output="ढ्रो"/>
@@ -3144,6 +3155,7 @@
             <when state="ट़े" output="ट़ै"/>
             <when state="टा" output="टै"/>
             <when state="टि" output="टी"/>
+            <when state="टृ" next="ट्रि"/>
             <when state="टे" output="टै"/>
             <when state="ट्रा" output="ट्रै"/>
             <when state="ट्रि" output="ट्री"/>
@@ -3151,6 +3163,7 @@
             <when state="ठ" next="ठि"/>
             <when state="ठा" output="ठै"/>
             <when state="ठि" output="ठी"/>
+            <when state="ठृ" next="ठ्रि"/>
             <when state="ठे" output="ठै"/>
             <when state="ठ्रा" output="ठ्रै"/>
             <when state="ठ्रि" output="ठ्री"/>
@@ -3158,6 +3171,7 @@
             <when state="ड" next="डि"/>
             <when state="डा" output="डै"/>
             <when state="डि" output="डी"/>
+            <when state="डृ" next="ड्रि"/>
             <when state="डे" output="डै"/>
             <when state="ड्रा" output="ड्रै"/>
             <when state="ड्रि" output="ड्री"/>
@@ -3165,6 +3179,7 @@
             <when state="ढ" next="ढि"/>
             <when state="ढा" output="ढै"/>
             <when state="ढि" output="ढी"/>
+            <when state="ढृ" next="ढ्रि"/>
             <when state="ढे" output="ढै"/>
             <when state="ढ्रा" output="ढ्रै"/>
             <when state="ढ्रि" output="ढ्री"/>
@@ -3582,6 +3597,7 @@
             <when state="ट़ॊ" output="ट़ौ"/>
             <when state="टा" output="टो"/>
             <when state="टु" output="टू"/>
+            <when state="टृ" next="ट्रु"/>
             <when state="टो" output="टौ"/>
             <when state="ट्रा" output="ट्रो"/>
             <when state="ट्रु" output="ट्रू"/>
@@ -3589,6 +3605,7 @@
             <when state="ठ" next="ठु"/>
             <when state="ठा" output="ठो"/>
             <when state="ठु" output="ठू"/>
+            <when state="ठृ" next="ठ्रु"/>
             <when state="ठो" output="ठौ"/>
             <when state="ठ्रा" output="ठ्रो"/>
             <when state="ठ्रु" output="ठ्रू"/>
@@ -3596,6 +3613,7 @@
             <when state="ड" next="डु"/>
             <when state="डा" output="डो"/>
             <when state="डु" output="डू"/>
+            <when state="डृ" next="ड्रु"/>
             <when state="डो" output="डौ"/>
             <when state="ड्रा" output="ड्रो"/>
             <when state="ड्रु" output="ड्रू"/>
@@ -3603,6 +3621,7 @@
             <when state="ढ" next="ढु"/>
             <when state="ढा" output="ढो"/>
             <when state="ढु" output="ढू"/>
+            <when state="ढृ" next="ढ्रु"/>
             <when state="ढो" output="ढौ"/>
             <when state="ढ्रा" output="ढ्रो"/>
             <when state="ढ्रु" output="ढ्रू"/>
@@ -3940,15 +3959,19 @@
             <when state="ट" next="टे"/>
             <when state="ट़" next="ट़े"/>
             <when state="ट़े" output="ट़ॆ"/>
+            <when state="टृ" next="ट्रे"/>
             <when state="टे" output="टॆ"/>
             <when state="ट्रे" output="ट्रॆ"/>
             <when state="ठ" next="ठे"/>
+            <when state="ठृ" next="ठ्रे"/>
             <when state="ठे" output="ठॆ"/>
             <when state="ठ्रे" output="ठ्रॆ"/>
             <when state="ड" next="डे"/>
+            <when state="डृ" next="ड्रे"/>
             <when state="डे" output="डॆ"/>
             <when state="ड्रे" output="ड्रॆ"/>
             <when state="ढ" next="ढे"/>
+            <when state="ढृ" next="ढ्रे"/>
             <when state="ढे" output="ढॆ"/>
             <when state="ढ्रे" output="ढ्रॆ"/>
             <when state="ण" next="णे"/>
@@ -4161,15 +4184,19 @@
             <when state="ट" next="टो"/>
             <when state="ट़" next="ट़ॊ"/>
             <when state="ट़ॊ" output="ट़ो"/>
+            <when state="टृ" next="ट्रॊ"/>
             <when state="टो" output="टो"/>
             <when state="ट्रॊ" output="ट्रो"/>
             <when state="ठ" next="ठो"/>
+            <when state="ठृ" next="ठ्रॊ"/>
             <when state="ठो" output="ठो"/>
             <when state="ठ्रॊ" output="ठ्रो"/>
             <when state="ड" next="डो"/>
+            <when state="डृ" next="ड्रॊ"/>
             <when state="डो" output="डो"/>
             <when state="ड्रॊ" output="ड्रो"/>
             <when state="ढ" next="ढो"/>
+            <when state="ढृ" next="ढ्रॊ"/>
             <when state="ढो" output="ढो"/>
             <when state="ढ्रॊ" output="ढ्रो"/>
             <when state="ण" next="णो"/>
@@ -4435,7 +4462,7 @@
             <when state="ज़" output="ज़ृ"/>
             <when state="जृ" output="ज्र्"/>
             <when state="ट" next="टृ"/>
-            <when state="टृ" output="ट्र"/>
+            <when state="टृ" output="ट्र्"/>
             <when state="ठ" next="ठृ"/>
             <when state="ठृ" output="ठ्र"/>
             <when state="ड" next="डृ"/>
