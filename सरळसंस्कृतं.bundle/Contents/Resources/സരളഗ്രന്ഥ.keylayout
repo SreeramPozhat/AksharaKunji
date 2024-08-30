@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--സംസ്കരണ 1.0.1 രാമേണ കൃതമ്&#x000A;സ്ഥിരമപ്രകാശിതം സംസ്കരണം ദിനാംകഃ : 5126-ശ്രാവണ-01&#x000A;Capslock On.&#x000A;&#x000A;വേദോച്ഛാരണം (സ്വരാഃ) —&#x003E; Shift + Options +&#x000A;1. ഉദാത്ത: &#x0027; (apostrophe)&#x000A;2. അനുദാത്ത: , (comma)&#x000A;3. സ്വരിത: - (minus)&#x000A;&#x000A;&#x000A;അനുപസ്ഥിതാഃ വിശെഷതാഃ:&#x000A;&#x000A;സിദ്ധാന്തതഃ, &#x0027;Options&#x0027; + ത് = ത്ര്, കിന്തു യതഃ ജനാഃ ആരമ്ഭെ &#x0027;T&#x0027; കോ ട് ഇതി അപി പ്രയുഞ്ജതെ, അത്ര &#x0027;Options&#x0027; കുഞ്ജി ഇതി പ്രയുക്തഃ.&#x000A;വ്യഞ്ചനാനാം പരം ർ ഇതി ദ്വിവാരം ദാബയന്തഃ സാമാന്യം യോഗം (യഥാ ക്ര്) കിന്തു അധികം തർകം കാര്യം ന ഭവിഷ്യതി.&#x000A;Control+അക്ഷര=ദ്വി അക്ഷര (മേക്ബുക് യന്ത്രെ).&#x000A;&#x000A;Grapheme cluster deletion with Shift+Delete (through Karabiner) - പ്രകാശിതാഃ&#x000A;സന്ധി നിയമാഃ യഥാ ന് ഇത്യസ്യ ൺ ഇത്യസ്യ പരിവർതനം യദാ ർ ഇത്യസ്യ പരം. എതാനി ശബ്ദ-പ്രക്രമാനുസാരം (MS word ഇത്യാദി) കർതവ്യാഃ. ഓപന സോർസ് ശബ്ദ-പ്രക്രമാഃ നിയമാഃ കൃതാഃ കിന്തു അപി പ്രകാശിതാഃ ന സന്തി യതഃ സർവാഃ നിയമാഃ അപി ന യുക്താഃ. &#x000A;&#x000A;യദ്യപി കോഽപി അന്യഃ വിശേഷതാഃ ആവശ്യകാഃ സന്തി കൃപയാ നിവേദനം കുരു..-->
-<!--Last edited by Ukelele version 396 on 1946-06-08 at 19:21 (GMT-1)-->
-<keyboard group="126" id="-27429" name="സരളഗ്രന്ഥ" maxout="6">
+<!--Last edited by Ukelele version 396 on 1946-06-08 at 19:33 (GMT-1)-->
+<keyboard group="126" id="-30674" name="സരളഗ്രന്ഥ" maxout="6">
     <layouts>
         <layout first="0" last="17" mapSet="16c" modifiers="f4"/>
         <layout first="18" last="18" mapSet="994" modifiers="f4"/>
@@ -1346,6 +1346,8 @@
             <when state="ന" output="നാ"/>
             <when state="നാഽ (വിസർഗ)" output="നാഽഽ"/>
             <when state="നൃ" output="ന്രാ"/>
+            <when state="ന്റ" output="ന്റാ"/>
+            <when state="ന്റാഽ (വിസർഗ)" output="ന്റാഽഽ"/>
             <when state="ഩ" output="ഩാ"/>
             <when state="പ" output="പാ"/>
             <when state="പാഽ (വിസർഗ)" output="പാഽഽ"/>
@@ -1395,8 +1397,6 @@
             <when state="ഹാഽ (വിസർഗ)" output="ഹാഽഽ"/>
             <when state="ഹൃ" output="ഹ്രാ"/>
             <when state="ാ" output="ാഽഽ"/>
-            <when state="ന്റ" output="ന്റാ"/>
-            <when state="ന്റാഽ (വിസർഗ)" output="ന്റാഽഽ"/>
             <when state="ർ" output="രാ"/>
         </action>
         <action id="a15">
@@ -1504,6 +1504,7 @@
             <when state="ധൃ" output="ധ്രൈ"/>
             <when state="ന" output="നൈ"/>
             <when state="നൃ" output="ന്രൈ"/>
+            <when state="ന്റ" output="ന്റൈ"/>
             <when state="ഩ" output="ഩേ"/>
             <when state="പ" output="പൈ"/>
             <when state="പൃ" output="പ്രൈ"/>
@@ -1536,7 +1537,6 @@
             <when state="സൃ" output="സ്രൈ"/>
             <when state="ഹ" output="ഹൈ"/>
             <when state="ഹൃ" output="ഹ്രൈ"/>
-            <when state="ന്റ" output="ന്റൈ"/>
             <when state="ർ" output="രൈ"/>
         </action>
         <action id="a19">
@@ -1646,6 +1646,7 @@
             <when state="ധൃ" output="ധ്രീ"/>
             <when state="ന" output="നീ"/>
             <when state="നൃ" output="ന്രീ"/>
+            <when state="ന്റ" output="ന്റീ"/>
             <when state="ഩ" output="ഩീ"/>
             <when state="പ" output="പീ"/>
             <when state="പൃ" output="പ്രീ"/>
@@ -1676,7 +1677,6 @@
             <when state="സൃ" output="സ്രീ"/>
             <when state="ഹ" output="ഹീ"/>
             <when state="ഹൃ" output="ഹ്രീ"/>
-            <when state="ന്റ" output="ന്റീ"/>
             <when state="ർ" output="രീ"/>
         </action>
         <action id="a23">
@@ -1808,6 +1808,7 @@
             <when state="ധൃ" output="ധ്രൌ"/>
             <when state="ന" output="നൌ"/>
             <when state="നൃ" output="ന്രൌ"/>
+            <when state="ന്റ" output="ന്റൌ"/>
             <when state="ഩ" output="ഩോ"/>
             <when state="പ" output="പൌ"/>
             <when state="പൃ" output="പ്രൌ"/>
@@ -1840,7 +1841,6 @@
             <when state="സൃ" output="സ്രൌ"/>
             <when state="ഹ" output="ഹൌ"/>
             <when state="ഹൃ" output="ഹ്രൌ"/>
-            <when state="ന്റ" output="ന്റൌ"/>
             <when state="ർ" output="രൌ"/>
         </action>
         <action id="a29">
@@ -1980,6 +1980,7 @@
             <when state="ധൃ" output="ധ്രൂ"/>
             <when state="ന" output="നൂ"/>
             <when state="നൃ" output="ന്രൂ"/>
+            <when state="ന്റ" output="ന്റൂ"/>
             <when state="ഩ" output="ഩൂ"/>
             <when state="പ" output="പൂ"/>
             <when state="പൃ" output="പ്രൂ"/>
@@ -2011,7 +2012,6 @@
             <when state="സൃ" output="സ്രൂ"/>
             <when state="ഹ" output="ഹൂ"/>
             <when state="ഹൃ" output="ഹ്രൂ"/>
-            <when state="ന്റ" output="ന്റൂ"/>
             <when state="ർ" output="രൂ"/>
         </action>
         <action id="a35">
@@ -2868,6 +2868,9 @@
             <when state="നോ" output="നോ"/>
             <when state="ന്രാ" output="ന്രാ"/>
             <when state="ന്രൊ" output="ന്രോ"/>
+            <when state="ന്റ" next="ന്റാ"/>
+            <when state="ന്റാ" output="ന്റാ"/>
+            <when state="ന്റോ" output="ന്റോ"/>
             <when state="ഩ" next="ഩാ"/>
             <when state="ഩാ" output="ഩാ"/>
             <when state="ഩൊ" output="ഩോ"/>
@@ -3008,9 +3011,6 @@
             <when state="ഺാ" output="ഺാ"/>
             <when state="ഺൊ" output="ഺോ"/>
             <when state="ാ" output="ാഽ"/>
-            <when state="ന്റ" next="ന്റാ"/>
-            <when state="ന്റാ" output="ന്റാ"/>
-            <when state="ന്റോ" output="ന്റോ"/>
             <when state="ർ" next="ര"/>
             <when state="ൽരാ" output="ൽരാ"/>
             <when state="ൽരൊ" output="ൽരോ"/>
@@ -3309,6 +3309,10 @@
             <when state="ന്രാ" output="ന്രൈ"/>
             <when state="ന്രി" output="ന്രീ"/>
             <when state="ന്രെ" output="ന്രൈ"/>
+            <when state="ന്റ" next="ന്റി"/>
+            <when state="ന്റാ" output="ന്റൈ"/>
+            <when state="ന്റി" output="ന്റീ"/>
+            <when state="ന്റെ" output="ന്റൈ"/>
             <when state="ഩ" next="ഩി"/>
             <when state="ഩാ" output="ഩൈ"/>
             <when state="ഩി" output="ഩീ"/>
@@ -3446,10 +3450,6 @@
             <when state="ഺി" output="ഺീ"/>
             <when state="ഺെ" output="ഺൈ"/>
             <when state="ി" output="ീ"/>
-            <when state="ന്റ" next="ന്റി"/>
-            <when state="ന്റാ" output="ന്റൈ"/>
-            <when state="ന്റി" output="ന്റീ"/>
-            <when state="ന്റെ" output="ന്റൈ"/>
             <when state="ർ" next="രി"/>
             <when state="ൽരാ" output="ൽരൈ"/>
             <when state="ൽരി" output="ൽരീ"/>
@@ -3752,6 +3752,10 @@
             <when state="ന്രാ" output="ന്രോ"/>
             <when state="ന്രു" output="ന്രൂ"/>
             <when state="ന്രൊ" output="ന്രൌ"/>
+            <when state="ന്റ" next="ന്റു"/>
+            <when state="ന്റാ" output="ന്റോ"/>
+            <when state="ന്റു" output="ന്റൂ"/>
+            <when state="ന്റോ" output="ന്റൌ"/>
             <when state="ഩ" next="ഩു"/>
             <when state="ഩാ" output="ഩോ"/>
             <when state="ഩു" output="ഩൂ"/>
@@ -3894,10 +3898,6 @@
             <when state="ഺു" output="ഺൂ"/>
             <when state="ഺൊ" output="ഺൌ"/>
             <when state="ു" output="ൂ"/>
-            <when state="ന്റ" next="ന്റു"/>
-            <when state="ന്റാ" output="ന്റോ"/>
-            <when state="ന്റു" output="ന്റൂ"/>
-            <when state="ന്റോ" output="ന്റൌ"/>
             <when state="ർ" next="രു"/>
             <when state="ൽരാ" output="ൽരോ"/>
             <when state="ൽരു" output="ൽരൂ"/>
@@ -4051,6 +4051,8 @@
             <when state="നൃ" next="ന്രെ"/>
             <when state="നെ" output="നേ"/>
             <when state="ന്രെ" output="ന്രേ"/>
+            <when state="ന്റ" next="ന്റെ"/>
+            <when state="ന്റെ" output="ന്റേ"/>
             <when state="ഩ" next="ഩെ"/>
             <when state="ഩെ" output="ഩേ"/>
             <when state="പ" next="പെ"/>
@@ -4121,8 +4123,6 @@
             <when state="ഺ" next="ഺെ"/>
             <when state="ഺെ" output="ഺേ"/>
             <when state="െ" output="േ"/>
-            <when state="ന്റ" next="ന്റെ"/>
-            <when state="ന്റെ" output="ന്റേ"/>
             <when state="ർ" next="രെ"/>
             <when state="ൽരെ" output="ൽരേ"/>
             <when state="ൾരെ" output="ൾരേ"/>
@@ -4277,6 +4277,8 @@
             <when state="നൃ" next="ന്രൊ"/>
             <when state="നോ" output="നോ"/>
             <when state="ന്രൊ" output="ന്രോ"/>
+            <when state="ന്റ" next="ന്റോ"/>
+            <when state="ന്റോ" output="ന്റോ"/>
             <when state="ഩ" next="ഩൊ"/>
             <when state="ഩൊ" output="ഩോ"/>
             <when state="പ" next="പോ"/>
@@ -4347,8 +4349,6 @@
             <when state="ഺ" next="ഺൊ"/>
             <when state="ഺൊ" output="ഺോ"/>
             <when state="ൊ" output="ോ"/>
-            <when state="ന്റ" next="ന്റോ"/>
-            <when state="ന്റോ" output="ന്റോ"/>
             <when state="ർ" next="രൊ"/>
             <when state="ൽരൊ" output="ൽരോ"/>
             <when state="ൾരൊ" output="ൾരോ"/>
@@ -5137,6 +5137,14 @@
         <when state="ന്രു" output="ന്രു"/>
         <when state="ന്രെ" output="ന്രെ"/>
         <when state="ന്രൊ" output="ന്രൊ"/>
+        <when state="ന്റ" output="ന്റ"/>
+        <when state="ന്റാ" output="ന്റ"/>
+        <when state="ന്റാഽ (വിസർഗ)" output="ന്റാ"/>
+        <when state="ന്റാഽഽ (വിസർഗ)" output="ന്റാഽ"/>
+        <when state="ന്റി" output="ന്റി"/>
+        <when state="ന്റു" output="ന്റു"/>
+        <when state="ന്റെ" output="ന്റെ"/>
+        <when state="ന്റോ" output="ന്റൊ"/>
         <when state="ഩ" output="ൻ"/>
         <when state="ഩാ" output="ഩ"/>
         <when state="ഩി" output="ഩി"/>
@@ -5386,15 +5394,7 @@
         <when state="ു" output="ു"/>
         <when state="െ" output="െ"/>
         <when state="ൊ" output="ൊ"/>
-        <when state="ന്റ" output="ന്റ"/>
-        <when state="ന്റാ" output="ന്റ"/>
-        <when state="ന്റാഽ (വിസർഗ)" output="ന്റാ"/>
-        <when state="ന്റാഽഽ (വിസർഗ)" output="ന്റാഽ"/>
-        <when state="ന്റി" output="ന്റി"/>
-        <when state="ന്റു" output="ന്റു"/>
-        <when state="ന്റെ" output="ന്റെ"/>
-        <when state="ന്റോ" output="ന്റൊ"/>
-        <when state="ർ" output="ൎ"/>
+        <when state="ർ" output="ർ"/>
         <when state="ൽരാ" output="ൽര"/>
         <when state="ൽരി" output="ൽരി"/>
         <when state="ൽരു" output="ൽരു"/>
