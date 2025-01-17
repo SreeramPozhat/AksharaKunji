@@ -141,7 +141,7 @@ def സുന്ദര_പ്രതീകം(അക്ഷരം, വലുപ്
 
     # Define initial font വലുപ്പം and color
     തുടക്കത്തിലെ_പ്രതീക_വലുപ്പം = വലുപ്പം // 2  # Start with a large font വലുപ്പം
-    green_color = (0, 255, 0, 255)  # Green text color with full opacity
+    font_color = (0, 0, 255, 255)  # Blue text color with full opacity
     
     # Load a TTF font file that supports Unicode characters
     try:
@@ -167,7 +167,7 @@ def സുന്ദര_പ്രതീകം(അക്ഷരം, വലുപ്
     text_y = (വലുപ്പം - text_height) / 2 - bbox[1]
 
     # Draw text on the image
-    draw.text((text_x, text_y), അക്ഷരം, fill=green_color, font=font)
+    draw.text((text_x, text_y), അക്ഷരം, fill=font_color, font=font)
     
     # Save the image
     image.save(output_path)
