@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--സംസ്കരണ 1.0.1 രാമേണ കൃതമ്&#x000A;സ്ഥിരമപ്രകാശിതം സംസ്കരണം ദിനാംകഃ : 5126-ശ്രാവണ-01&#x000A;Capslock On.&#x000A;&#x000A;വേദോച്ഛാരണം (സ്വരാഃ) —&#x003E; Shift + Options +&#x000A;1. ഉദാത്ത: &#x0027; (apostrophe)&#x000A;2. അനുദാത്ത: , (comma)&#x000A;3. സ്വരിത: - (minus)&#x000A;&#x000A;&#x000A;അനുപസ്ഥിതാഃ വിശെഷതാഃ:&#x000A;&#x000A;സിദ്ധാന്തതഃ, &#x0027;Options&#x0027; + ത് = ത്ര്, കിന്തു യതഃ ജനാഃ ആരമ്ഭെ &#x0027;T&#x0027; കോ ട് ഇതി അപി പ്രയുഞ്ജതെ, അത്ര &#x0027;Options&#x0027; കുഞ്ജി ഇതി പ്രയുക്തഃ.&#x000A;വ്യഞ്ചനാനാം പരം ർ ഇതി ദ്വിവാരം ദാബയന്തഃ സാമാന്യം യോഗം (യഥാ ക്ര്) കിന്തു അധികം തർകം കാര്യം ന ഭവിഷ്യതി.&#x000A;Control+അക്ഷര=ദ്വി അക്ഷര (മേക്ബുക് യന്ത്രെ).&#x000A;&#x000A;Grapheme cluster deletion with Shift+Delete (through Karabiner) - പ്രകാശിതാഃ&#x000A;സന്ധി നിയമാഃ യഥാ ന് ഇത്യസ്യ ൺ ഇത്യസ്യ പരിവർതനം യദാ ർ ഇത്യസ്യ പരം. എതാനി ശബ്ദ-പ്രക്രമാനുസാരം (MS word ഇത്യാദി) കർതവ്യാഃ. ഓപന സോർസ് ശബ്ദ-പ്രക്രമാഃ നിയമാഃ കൃതാഃ കിന്തു അപി പ്രകാശിതാഃ ന സന്തി യതഃ സർവാഃ നിയമാഃ അപി ന യുക്താഃ. &#x000A;&#x000A;യദ്യപി കോഽപി അന്യഃ വിശേഷതാഃ ആവശ്യകാഃ സന്തി കൃപയാ നിവേദനം കുരു..-->
-<!--Last edited by Ukelele version 396 on 1946-06-08 at 19:33 (GMT-1)-->
-<keyboard group="126" id="-30674" name="സരളഗ്രന്ഥ" maxout="6">
+<!--സംസ്കരണ 1.0.4 രാമേണ കൃതം&#x000A;സ്ഥിരമപ്രകാശിതം സംസ്കരണം ദിനാംകഃ : 5127– കർക്കിടകം – 18&#x000A;ഹൃ + ` = ㅤꨄ︎ [ഹൃദയ ചിഹ്നം]&#x000A;&#x000A;സംസ്കരണ 1.0.3 രാമേണ കൃതം&#x000A;സ്ഥിരമപ്രകാശിതം സംസ്കരണം ദിനാംകഃ : 5127– ഇടവം – 04&#x000A;&#x000A;- ൾ+ല് = ള്ള്. ഇത് Shift ഉപയോഗിക്കാതെ എഴുതാൻ വേണ്ടി ചെയ്തതാണ്.&#x000A;- ? എന്നതും / എന്നതും തിരിച്ചു. എന്തെന്നാൽ ? എന്നത് വളരെ അധികം ഉപയോഗിക്കുന്നുണ്ട്.&#x000A;- മലയാളത്തിൽ മാത്രം ങ്+ച്/ജ് എന്നത് ശരിയാക്കി. അത് ഞ്ച്/ഞ്ജ് എന്നതിന് പകരം ഞ്ച/ഞ്ജ എന്ന deadkeysലേക്ക് ആക്കി.&#x000A;&#x000A;Capslock On.&#x000A;&#x000A;വേദോച്ഛാരണം (സ്വരാഃ) —&#x003E; Shift + Options +&#x000A;1. ഉദാത്ത: &#x0027; (apostrophe)&#x000A;2. അനുദാത്ത: , (comma)&#x000A;3. സ്വരിത: - (minus)&#x000A;&#x000A;&#x000A;അനുപസ്ഥിതാഃ വിശെഷതാഃ:&#x000A;&#x000A;സിദ്ധാന്തതഃ, &#x0027;Options&#x0027; + ത് = ത്ര്, കിന്തു യതഃ ജനാഃ ആരമ്ഭെ &#x0027;T&#x0027; കോ ട് ഇതി അപി പ്രയുഞ്ജതെ, അത്ര &#x0027;Options&#x0027; കുഞ്ജി ഇതി പ്രയുക്തഃ.&#x000A;വ്യഞ്ചനാനാം പരം ർ ഇതി ദ്വിവാരം ദാബയന്തഃ സാമാന്യം യോഗം (യഥാ ക്ര്) കിന്തു അധികം തർകം കാര്യം ന ഭവിഷ്യതി.&#x000A;Control+അക്ഷര=ദ്വി അക്ഷര (മേക്ബുക് യന്ത്രെ).&#x000A;&#x000A;Grapheme cluster deletion with Shift+Delete (through Karabiner) - പ്രകാശിതാഃ&#x000A;സന്ധി നിയമാഃ യഥാ ന് ഇത്യസ്യ ൺ ഇത്യസ്യ പരിവർതനം യദാ ർ ഇത്യസ്യ പരം. എതാനി ശബ്ദ-പ്രക്രമാനുസാരം (MS word ഇത്യാദി) കർതവ്യാഃ. ഓപന സോർസ് ശബ്ദ-പ്രക്രമാഃ നിയമാഃ കൃതാഃ കിന്തു അപി പ്രകാശിതാഃ ന സന്തി യതഃ സർവാഃ നിയമാഃ അപി ന യുക്താഃ. &#x000A;&#x000A;യദ്യപി കോഽപി അന്യഃ വിശേഷതാഃ ആവശ്യകാഃ സന്തി കൃപയാ നിവേദനം കുരു..-->
+<!--Last edited by Ukelele version 396 on 2025-08-10 at 07:11 (GMT-1)-->
+<keyboard group="126" id="-25781" name="സരളഗ്രന്ഥ" maxout="6">
     <layouts>
         <layout first="0" last="17" mapSet="16c" modifiers="f4"/>
         <layout first="18" last="18" mapSet="994" modifiers="f4"/>
@@ -202,7 +202,7 @@
             <key code="39" action="a1"/>
             <key code="40" action="a24"/>
             <key code="41" action=":"/>
-            <key code="42" output="."/>
+            <key code="42" output="𑁍"/>
             <key code="43" output="&#x003C;"/>
             <key code="44" action="?"/>
             <key code="45" action="a27"/>
@@ -415,7 +415,7 @@
             <key code="34" output="ീ"/>
             <key code="35" output="̦"/>
             <key code="36" output="&#x000D;"/>
-            <key code="37" output="̵"/>
+            <key code="37" action="̵"/>
             <key code="38" action="̋"/>
             <key code="39" action="a94"/>
             <key code="40" output="̊"/>
@@ -424,7 +424,7 @@
             <key code="43" output="◌॒"/>
             <key code="44" output="¿"/>
             <key code="45" action="ഩ 1"/>
-            <key code="46" output="ॉ"/>
+            <key code="46" output="ഁ"/>
             <key code="47" action="a63"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" output=" "/>
@@ -502,7 +502,7 @@
             <key code="12" action="ത്ര"/>
             <key code="13" output=""/>
             <key code="14" action="ഐ"/>
-            <key code="15" output="ൃ"/>
+            <key code="15" action="ൃ"/>
             <key code="16" action="¥"/>
             <key code="17" action="ട് 1"/>
             <key code="18" output="ੴ "/>
@@ -859,7 +859,7 @@
             <key code="39" output="&#x0022;"/>
             <key code="40" output="K"/>
             <key code="41" output=":"/>
-            <key code="42" output="."/>
+            <key code="42" output="|"/>
             <key code="43" output="&#x003C;"/>
             <key code="44" output="?"/>
             <key code="45" output="N"/>
@@ -933,7 +933,7 @@
             <key code="7" action="ങ്"/>
             <key code="8" action="ച്"/>
             <key code="9" action="വ്"/>
-            <key code="10" output=""/>
+            <key code="10" output="¡"/>
             <key code="11" action="ബ്"/>
             <key code="12" action="ത്"/>
             <key code="13" action="ദ്"/>
@@ -967,7 +967,7 @@
             <key code="41" action=";"/>
             <key code="42" output="\"/>
             <key code="43" action=","/>
-            <key code="44" output="/"/>
+            <key code="44" action="? 1"/>
             <key code="45" action="ന്"/>
             <key code="46" action="മ്"/>
             <key code="47" action="."/>
@@ -1137,12 +1137,20 @@
         </action>
         <action id=";">
             <when state="none" output=";"/>
+            <when state="ങ" next="ഞ"/>
+            <when state="ന" next="ണ"/>
             <when state="മ" output="ം;"/>
+            <when state="യ" next="ഴ"/>
+            <when state="ല" next="ള"/>
+            <when state="ർ" next="റ്റ് (റ്റ്)"/>
         </action>
         <action id="?">
+            <when state="none" output="/"/>
+            <when state="ർ" output="ർ?"/>
+        </action>
+        <action id="? 1">
             <when state="none" output="?"/>
             <when state="മ" output="ം?"/>
-            <when state="ർ" output="ർ?"/>
         </action>
         <action id="`">
             <when state="none" next="1"/>
@@ -1198,7 +1206,7 @@
             <when state="15" output="ʽ"/>
         </action>
         <action id="a103">
-            <when state="none" output="ഋ"/>
+            <when state="none" next="ഋ"/>
         </action>
         <action id="a104">
             <when state="none" next="13"/>
@@ -1207,7 +1215,7 @@
             <when state="none" next="13"/>
         </action>
         <action id="a106">
-            <when state="none" output="ൌ"/>
+            <when state="none" output="ൗ"/>
             <when state="10" output="Ǿ"/>
             <when state="റ്റ" output="റ്റോ"/>
         </action>
@@ -1757,91 +1765,91 @@
             <when state="7" output="Ỏ"/>
             <when state="8" output="Ȍ"/>
             <when state="9" output="Ő"/>
-            <when state="ஃഫ" output="ஃഫൌ"/>
-            <when state="ஃവ" output="ஃവൌ"/>
-            <when state="ஃസ" output="ஃസൌ"/>
-            <when state="ക" output="കൌ"/>
-            <when state="കൃ" output="ക്രൌ"/>
-            <when state="ക്ഷ" output="ക്ഷൌ"/>
-            <when state="ഖ" output="ഖൌ"/>
-            <when state="ഖൃ" output="ഖ്രൌ"/>
-            <when state="ഗ" output="ഗൌ"/>
-            <when state="ഗൃ" output="ഗ്രൌ"/>
-            <when state="ഘ" output="ഘൌ"/>
-            <when state="ഘൃ" output="ഘ്രൌ"/>
-            <when state="ങ" output="ങൌ"/>
-            <when state="ങ്ക" output="ങ്കൌ"/>
-            <when state="ങ്ഖ" output="ങ്ഖൌ"/>
-            <when state="ങ്ഗ" output="ങ്ഗൌ"/>
-            <when state="ങ്ഘ" output="ങ്ഘൌ"/>
-            <when state="ച" output="ചൌ"/>
-            <when state="ചൃ" output="ച്രൌ"/>
-            <when state="ഛ" output="ഛൌ"/>
-            <when state="ജ" output="ജൌ"/>
-            <when state="ജൃ" output="ജ്രൌ"/>
-            <when state="ജ്ഞ" output="ജ്ഞൌ"/>
-            <when state="ഝ" output="ഝൌ"/>
-            <when state="ഞ" output="ഞൌ"/>
-            <when state="ഞ്ച" output="ഞ്ചൌ"/>
-            <when state="ഞ്ഛ" output="ഞ്ഛൌ"/>
-            <when state="ഞ്ജ" output="ഞ്ജൌ"/>
-            <when state="ഞ്ഝ" output="ഞ്ഝൌ"/>
-            <when state="ട" output="ടൌ"/>
+            <when state="ஃഫ" output="ஃഫൗ"/>
+            <when state="ஃവ" output="ஃവൗ"/>
+            <when state="ஃസ" output="ஃസൗ"/>
+            <when state="ക" output="കൗ"/>
+            <when state="കൃ" output="ക്രൗ"/>
+            <when state="ക്ഷ" output="ക്ഷൗ"/>
+            <when state="ഖ" output="ഖൗ"/>
+            <when state="ഖൃ" output="ഖ്രൗ"/>
+            <when state="ഗ" output="ഗൗ"/>
+            <when state="ഗൃ" output="ഗ്രൗ"/>
+            <when state="ഘ" output="ഘൗ"/>
+            <when state="ഘൃ" output="ഘ്രൗ"/>
+            <when state="ങ" output="ങൗ"/>
+            <when state="ങ്ക" output="ങ്കൗ"/>
+            <when state="ങ്ഖ" output="ങ്ഖൗ"/>
+            <when state="ങ്ഗ" output="ങ്ഗൗ"/>
+            <when state="ങ്ഘ" output="ങ്ഘൗ"/>
+            <when state="ച" output="ചൗ"/>
+            <when state="ചൃ" output="ച്രൗ"/>
+            <when state="ഛ" output="ഛൗ"/>
+            <when state="ജ" output="ജൗ"/>
+            <when state="ജൃ" output="ജ്രൗ"/>
+            <when state="ജ്ഞ" output="ജ്ഞൗ"/>
+            <when state="ഝ" output="ഝൗ"/>
+            <when state="ഞ" output="ഞൗ"/>
+            <when state="ഞ്ച" output="ഞ്ചൗ"/>
+            <when state="ഞ്ഛ" output="ഞ്ഛൗ"/>
+            <when state="ഞ്ജ" output="ഞ്ജൗ"/>
+            <when state="ഞ്ഝ" output="ഞ്ഝൗ"/>
+            <when state="ട" output="ടൗ"/>
             <when state="ടൃ" output="ട്രോ"/>
-            <when state="ഠ" output="ഠൌ"/>
-            <when state="ഡ" output="ഡൌ"/>
-            <when state="ഢ" output="ഢൌ"/>
-            <when state="ണ" output="ണൌ"/>
-            <when state="ണ്ട" output="ണ്ടൌ"/>
-            <when state="ണ്ഠ" output="ണ്ഠൌ"/>
-            <when state="ണ്ഡ" output="ണ്ഡൌ"/>
-            <when state="ണ്ഢ" output="ണ്ഢൌ"/>
-            <when state="ണ്ണ" output="ണ്ണൌ"/>
-            <when state="ത" output="തൌ"/>
-            <when state="തൃ" output="ത്രൌ"/>
-            <when state="ത്ര" output="ത്രൌ"/>
-            <when state="ഥ" output="ഥൌ"/>
-            <when state="ഥൃ" output="ഥ്രൌ"/>
-            <when state="ദ" output="ദൌ"/>
-            <when state="ദൃ" output="ദ്രൌ"/>
-            <when state="ധ" output="ധൌ"/>
-            <when state="ധൃ" output="ധ്രൌ"/>
-            <when state="ന" output="നൌ"/>
-            <when state="നൃ" output="ന്രൌ"/>
-            <when state="ന്റ" output="ന്റൌ"/>
+            <when state="ഠ" output="ഠൗ"/>
+            <when state="ഡ" output="ഡൗ"/>
+            <when state="ഢ" output="ഢൗ"/>
+            <when state="ണ" output="ണൗ"/>
+            <when state="ണ്ട" output="ണ്ടൗ"/>
+            <when state="ണ്ഠ" output="ണ്ഠൗ"/>
+            <when state="ണ്ഡ" output="ണ്ഡൗ"/>
+            <when state="ണ്ഢ" output="ണ്ഢൗ"/>
+            <when state="ണ്ണ" output="ണ്ണൗ"/>
+            <when state="ത" output="തൗ"/>
+            <when state="തൃ" output="ത്രൗ"/>
+            <when state="ത്ര" output="ത്രൗ"/>
+            <when state="ഥ" output="ഥൗ"/>
+            <when state="ഥൃ" output="ഥ്രൗ"/>
+            <when state="ദ" output="ദൗ"/>
+            <when state="ദൃ" output="ദ്രൗ"/>
+            <when state="ധ" output="ധൗ"/>
+            <when state="ധൃ" output="ധ്രൗ"/>
+            <when state="ന" output="നൗ"/>
+            <when state="നൃ" output="ന്രൗ"/>
+            <when state="ന്റ" output="ന്റൗ"/>
             <when state="ഩ" output="ഩോ"/>
-            <when state="പ" output="പൌ"/>
-            <when state="പൃ" output="പ്രൌ"/>
-            <when state="ഫ" output="ഫൌ"/>
-            <when state="ഫൃ" output="ഫ്രൌ"/>
-            <when state="ബ" output="ബൌ"/>
-            <when state="ബൃ" output="ബ്രൌ"/>
-            <when state="ഭ" output="ഭൌ"/>
-            <when state="ഭൃ" output="ഭ്രൌ"/>
-            <when state="മ" output="മൌ"/>
-            <when state="മൃ" output="മ്രൌ"/>
-            <when state="യ" output="യൌ"/>
+            <when state="പ" output="പൗ"/>
+            <when state="പൃ" output="പ്രൗ"/>
+            <when state="ഫ" output="ഫൗ"/>
+            <when state="ഫൃ" output="ഫ്രൗ"/>
+            <when state="ബ" output="ബൗ"/>
+            <when state="ബൃ" output="ബ്രൗ"/>
+            <when state="ഭ" output="ഭൗ"/>
+            <when state="ഭൃ" output="ഭ്രൗ"/>
+            <when state="മ" output="മൗ"/>
+            <when state="മൃ" output="മ്രൗ"/>
+            <when state="യ" output="യൗ"/>
             <when state="ര്യ" output="ര്യോ"/>
-            <when state="റ" output="റൌ"/>
-            <when state="റ്റ" output="റ്റൌ"/>
-            <when state="റ്റ് (റ്റ്)" output="റ്റൌ"/>
-            <when state="ല" output="ലൌ"/>
-            <when state="ല്ല" output="ല്ലൌ"/>
+            <when state="റ" output="റൗ"/>
+            <when state="റ്റ" output="റ്റൗ"/>
+            <when state="റ്റ് (റ്റ്)" output="റ്റൗ"/>
+            <when state="ല" output="ലൗ"/>
+            <when state="ല്ല" output="ല്ലൗ"/>
             <when state="ല‎്യ" output="ല്യോ"/>
-            <when state="ള" output="ളൌ"/>
+            <when state="ള" output="ളൗ"/>
             <when state="ള്യ" output="ള്യോ"/>
-            <when state="ള്ള" output="ള്ളൌ"/>
-            <when state="ഴ" output="ഴൌ"/>
-            <when state="വ" output="വൌ"/>
-            <when state="വൃ" output="വ്രൌ"/>
-            <when state="ശ" output="ശൌ"/>
-            <when state="ശൃ" output="ശ്രൌ"/>
-            <when state="ഷ" output="ഷൌ"/>
-            <when state="സ" output="സൌ"/>
-            <when state="സൃ" output="സ്രൌ"/>
-            <when state="ഹ" output="ഹൌ"/>
-            <when state="ഹൃ" output="ഹ്രൌ"/>
-            <when state="ർ" output="രൌ"/>
+            <when state="ള്ള" output="ള്ളൗ"/>
+            <when state="ഴ" output="ഴൗ"/>
+            <when state="വ" output="വൗ"/>
+            <when state="വൃ" output="വ്രൗ"/>
+            <when state="ശ" output="ശൗ"/>
+            <when state="ശൃ" output="ശ്രൗ"/>
+            <when state="ഷ" output="ഷൗ"/>
+            <when state="സ" output="സൗ"/>
+            <when state="സൃ" output="സ്രൗ"/>
+            <when state="ഹ" output="ഹൗ"/>
+            <when state="ഹൃ" output="ഹ്രൗ"/>
+            <when state="ർ" output="രൗ"/>
         </action>
         <action id="a29">
             <when state="none" next="ഫ"/>
@@ -2550,20 +2558,30 @@
         <action id="̋">
             <when state="none" next="ஃസ"/>
         </action>
+        <action id="̵">
+            <when state="none" next="ഌ"/>
+        </action>
         <action id="ऺ">
             <when state="none" output=""/>
+            <when state="ഋ" output="ൠ"/>
+            <when state="ഌ" output="ൡ"/>
             <when state="ക" output="ൿ"/>
             <when state="ണ" output="ൺ"/>
             <when state="ണ്" next="ണ"/>
             <when state="ത" next="ഺ"/>
             <when state="ന" next="ഩ"/>
+            <when state="ന്റെ" next="ൻറ്റെ"/>
             <when state="ഩ" output="ഩ്"/>
             <when state="മ" output="ം"/>
             <when state="യ" output="ൕ"/>
-            <when state="റ" output="ർ"/>
+            <when state="റ" output="ൎ"/>
+            <when state="റ്റ് (റ്റ്)" next="ഺ"/>
             <when state="ല" output="ൽ"/>
-            <when state="ള" output="ള‎്"/>
+            <when state="ള" output="ള്"/>
             <when state="ഴ" output="ൖ"/>
+            <when state="ഹൃ" output="ㅤꨄ︎"/>
+            <when state="ൃ" output="ൄ"/>
+            <when state="ൻറ്റെ" next="ഩ്ഺെ"/>
             <when state="ർ" output="ര്"/>
         </action>
         <action id="ം">
@@ -3464,26 +3482,26 @@
             <when state="ஃഫാ" output="ஃഫോ"/>
             <when state="ஃഫു" output="ஃഫൂ"/>
             <when state="ஃഫൃ" next="ஃഫ്രു"/>
-            <when state="ஃഫോ" output="ஃഫൌ"/>
+            <when state="ஃഫോ" output="ஃഫൗ"/>
             <when state="ஃഫ്രാ" output="ஃഫ്രോ"/>
             <when state="ஃഫ്രു" output="ஃഫ്രൂ"/>
-            <when state="ஃഫ്രൊ" output="ஃഫ്രൌ"/>
+            <when state="ஃഫ്രൊ" output="ஃഫ്രൗ"/>
             <when state="ஃയ" output="ஃയു"/>
             <when state="ஃവ" next="ஃവു"/>
             <when state="ஃവാ" output="ஃവോ"/>
             <when state="ஃവു" output="ஃവൂ"/>
             <when state="ஃവൃ" next="ஃവ്രു"/>
-            <when state="ஃവോ" output="ஃവൌ"/>
+            <when state="ஃവോ" output="ஃവൗ"/>
             <when state="ஃവ്രാ" output="ஃവ്രോ"/>
             <when state="ஃവ്രു" output="ஃവ്രൂ"/>
-            <when state="ஃവ്രൊ" output="ஃവ്രൌ"/>
+            <when state="ஃവ്രൊ" output="ஃവ്രൗ"/>
             <when state="ஃസ" next="ஃസു"/>
             <when state="ஃസാ" output="ஃസോ"/>
             <when state="ஃസു" output="ஃസൂ"/>
-            <when state="ஃസോ" output="ஃസൌ"/>
+            <when state="ஃസോ" output="ஃസൗ"/>
             <when state="ஃസ്രാ" output="ஃസ്രോ"/>
             <when state="ஃസ്രു" output="ஃസ്രൂ"/>
-            <when state="ஃസ്രൊ" output="ஃസ്രൌ"/>
+            <when state="ஃസ്രൊ" output="ஃസ്രൗ"/>
             <when state="അ" output="ഔ"/>
             <when state="ഉ" output="ഊ"/>
             <when state="ഒ" output="ഔ"/>
@@ -3491,420 +3509,420 @@
             <when state="കാ" output="കോ"/>
             <when state="കു" output="കൂ"/>
             <when state="കൃ" next="ക്രു"/>
-            <when state="കോ" output="കൌ"/>
+            <when state="കോ" output="കൗ"/>
             <when state="ക്രാ" output="ക്രോ"/>
             <when state="ക്രു" output="ക്രൂ"/>
-            <when state="ക്രൊ" output="ക്രൌ"/>
+            <when state="ക്രൊ" output="ക്രൗ"/>
             <when state="ക്ഷ" next="ക്ഷു"/>
             <when state="ക്ഷാ" output="ക്ഷോ"/>
             <when state="ക്ഷു" output="ക്ഷൂ"/>
-            <when state="ക്ഷോ" output="ക്ഷൌ"/>
+            <when state="ക്ഷോ" output="ക്ഷൗ"/>
             <when state="ഖ" next="ഖു"/>
             <when state="ഖാ" output="ഖോ"/>
             <when state="ഖു" output="ഖൂ"/>
             <when state="ഖൃ" next="ഖ്രു"/>
-            <when state="ഖോ" output="ഖൌ"/>
+            <when state="ഖോ" output="ഖൗ"/>
             <when state="ഖ്രാ" output="ഖ്രോ"/>
             <when state="ഖ്രു" output="ഖ്രൂ"/>
-            <when state="ഖ്രൊ" output="ഖ്രൌ"/>
+            <when state="ഖ്രൊ" output="ഖ്രൗ"/>
             <when state="ഗ" next="ഗു"/>
             <when state="ഗാ" output="ഗോ"/>
             <when state="ഗു" output="ഗൂ"/>
             <when state="ഗൃ" next="ഗ്രു"/>
-            <when state="ഗോ" output="ഗൌ"/>
+            <when state="ഗോ" output="ഗൗ"/>
             <when state="ഗ്രാ" output="ഗ്രോ"/>
             <when state="ഗ്രു" output="ഗ്രൂ"/>
-            <when state="ഗ്രൊ" output="ഗ്രൌ"/>
+            <when state="ഗ്രൊ" output="ഗ്രൗ"/>
             <when state="ഘ" next="ഘു"/>
             <when state="ഘാ" output="ഘോ"/>
             <when state="ഘു" output="ഘൂ"/>
             <when state="ഘൃ" next="ഘ്രു"/>
-            <when state="ഘോ" output="ഘൌ"/>
+            <when state="ഘോ" output="ഘൗ"/>
             <when state="ഘ്രാ" output="ഘ്രോ"/>
             <when state="ഘ്രു" output="ഘ്രൂ"/>
-            <when state="ഘ്രൊ" output="ഘ്രൌ"/>
+            <when state="ഘ്രൊ" output="ഘ്രൗ"/>
             <when state="ങ" next="ങു"/>
             <when state="ങാ" output="ങോ"/>
             <when state="ങു" output="ങൂ"/>
-            <when state="ങോ" output="ങൌ"/>
+            <when state="ങോ" output="ങൗ"/>
             <when state="ങ്ക" next="ങ്കു"/>
             <when state="ങ്കാ" output="ങ്കോ"/>
             <when state="ങ്കു" output="ങ്കൂ"/>
             <when state="ങ്കൃ" next="ങ്ക്രു"/>
-            <when state="ങ്കോ" output="ങ്കൌ"/>
+            <when state="ങ്കോ" output="ങ്കൗ"/>
             <when state="ങ്ക്രാ" output="ങ്ക്രോ"/>
             <when state="ങ്ക്രു" output="ങ്ക്രൂ"/>
-            <when state="ങ്ക്രൊ" output="ങ്ക്രൌ"/>
+            <when state="ങ്ക്രൊ" output="ങ്ക്രൗ"/>
             <when state="ങ്ഖ" next="ങ്ഖു"/>
             <when state="ങ്ഖാ" output="ങ്ഖോ"/>
             <when state="ങ്ഖു" output="ങ്ഖൂ"/>
             <when state="ങ്ഖൃ" next="ങ്ഖ്രു"/>
-            <when state="ങ്ഖോ" output="ങ്ഖൌ"/>
+            <when state="ങ്ഖോ" output="ങ്ഖൗ"/>
             <when state="ങ്ഖ്രാ" output="ങ്ഖ്രോ"/>
             <when state="ങ്ഖ്രു" output="ങ്ഖ്രൂ"/>
-            <when state="ങ്ഖ്രൊ" output="ങ്ഖ്രൌ"/>
+            <when state="ങ്ഖ്രൊ" output="ങ്ഖ്രൗ"/>
             <when state="ങ്ഗ" next="ങ്ഗു"/>
             <when state="ങ്ഗാ" output="ങ്ഗോ"/>
             <when state="ങ്ഗു" output="ങ്ഗൂ"/>
             <when state="ങ്ഗൃ" next="ങ്ഗ്രു"/>
-            <when state="ങ്ഗോ" output="ങ്ഗൌ"/>
+            <when state="ങ്ഗോ" output="ങ്ഗൗ"/>
             <when state="ങ്ഗ്രാ" output="ങ്ഗ്രോ"/>
             <when state="ങ്ഗ്രു" output="ങ്ഗ്രൂ"/>
-            <when state="ങ്ഗ്രൊ" output="ങ്ഗ്രൌ"/>
+            <when state="ങ്ഗ്രൊ" output="ങ്ഗ്രൗ"/>
             <when state="ങ്ഘ" next="ങ്ഘു"/>
             <when state="ങ്ഘാ" output="ങ്ഘോ"/>
             <when state="ങ്ഘു" output="ങ്ഘൂ"/>
             <when state="ങ്ഘൃ" next="ങ്ഘ്രു"/>
-            <when state="ങ്ഘോ" output="ങ്ഘൌ"/>
+            <when state="ങ്ഘോ" output="ങ്ഘൗ"/>
             <when state="ങ്ഘ്രാ" output="ങ്ഘ്രോ"/>
             <when state="ങ്ഘ്രു" output="ങ്ഘ്രൂ"/>
-            <when state="ങ്ഘ്രൊ" output="ങ്ഘ്രൌ"/>
+            <when state="ങ്ഘ്രൊ" output="ങ്ഘ്രൗ"/>
             <when state="ങ്രാ" output="ങ്രോ"/>
             <when state="ങ്രു" output="ങ്രൂ"/>
-            <when state="ങ്രൊ" output="ങ്രൌ"/>
+            <when state="ങ്രൊ" output="ങ്രൗ"/>
             <when state="ച" next="ചു"/>
             <when state="ചാ" output="ചോ"/>
             <when state="ചു" output="ചൂ"/>
             <when state="ചൃ" next="ച്രു"/>
-            <when state="ചോ" output="ചൌ"/>
+            <when state="ചോ" output="ചൗ"/>
             <when state="ച്രാ" output="ച്രോ"/>
             <when state="ച്രു" output="ച്രൂ"/>
-            <when state="ച്രൊ" output="ച്രൌ"/>
+            <when state="ച്രൊ" output="ച്രൗ"/>
             <when state="ഛ" next="ഛു"/>
             <when state="ഛാ" output="ഛോ"/>
             <when state="ഛു" output="ഛൂ"/>
-            <when state="ഛോ" output="ഛൌ"/>
+            <when state="ഛോ" output="ഛൗ"/>
             <when state="ഛ്രാ" output="ഛ്രോ"/>
             <when state="ഛ്രു" output="ഛ്രൂ"/>
-            <when state="ഛ്രൊ" output="ഛ്രൌ"/>
+            <when state="ഛ്രൊ" output="ഛ്രൗ"/>
             <when state="ജ" next="ജു"/>
             <when state="ജാ" output="ജോ"/>
             <when state="ജു" output="ജൂ"/>
             <when state="ജൃ" next="ജ്രു"/>
-            <when state="ജോ" output="ജൌ"/>
+            <when state="ജോ" output="ജൗ"/>
             <when state="ജ്ഞ" next="ജ്ഞു"/>
             <when state="ജ്ഞാ" output="ജ്ഞോ"/>
             <when state="ജ്ഞു" output="ജ്ഞൂ"/>
-            <when state="ജ്ഞോ" output="ജ്ഞൌ"/>
+            <when state="ജ്ഞോ" output="ജ്ഞൗ"/>
             <when state="ജ്രാ" output="ജ്രോ"/>
             <when state="ജ്രു" output="ജ്രൂ"/>
-            <when state="ജ്രൊ" output="ജ്രൌ"/>
+            <when state="ജ്രൊ" output="ജ്രൗ"/>
             <when state="ഝ" next="ഝു"/>
             <when state="ഝാ" output="ഝോ"/>
             <when state="ഝു" output="ഝൂ"/>
-            <when state="ഝോ" output="ഝൌ"/>
+            <when state="ഝോ" output="ഝൗ"/>
             <when state="ഝ്രാ" output="ഝ്രോ"/>
             <when state="ഝ്രു" output="ഝ്രൂ"/>
-            <when state="ഝ്രൊ" output="ഝ്രൌ"/>
+            <when state="ഝ്രൊ" output="ഝ്രൗ"/>
             <when state="ഞ" next="ഞു"/>
             <when state="ഞാ" output="ഞോ"/>
             <when state="ഞു" output="ഞൂ"/>
-            <when state="ഞോ" output="ഞൌ"/>
+            <when state="ഞോ" output="ഞൗ"/>
             <when state="ഞ്ച" next="ഞ്ചു"/>
             <when state="ഞ്ചാ" output="ഞ്ചോ"/>
             <when state="ഞ്ചു" output="ഞ്ചൂ"/>
             <when state="ഞ്ചൃ" next="ഞ്ച്രു"/>
-            <when state="ഞ്ചോ" output="ഞ്ചൌ"/>
+            <when state="ഞ്ചോ" output="ഞ്ചൗ"/>
             <when state="ഞ്ച്രാ" output="ഞ്ച്രോ"/>
             <when state="ഞ്ച്രു" output="ഞ്ച്രൂ"/>
-            <when state="ഞ്ച്രൊ" output="ഞ്ച്രൌ"/>
+            <when state="ഞ്ച്രൊ" output="ഞ്ച്രൗ"/>
             <when state="ഞ്ഛ" next="ഞ്ഛു"/>
             <when state="ഞ്ഛാ" output="ഞ്ഛോ"/>
             <when state="ഞ്ഛു" output="ഞ്ഛൂ"/>
             <when state="ഞ്ഛൃ" next="ഞ്ഛ്രു"/>
-            <when state="ഞ്ഛോ" output="ഞ്ഛൌ"/>
+            <when state="ഞ്ഛോ" output="ഞ്ഛൗ"/>
             <when state="ഞ്ഛ്രാ" output="ഞ്ഛ്രോ"/>
             <when state="ഞ്ഛ്രു" output="ഞ്ഛ്രൂ"/>
-            <when state="ഞ്ഛ്രൊ" output="ഞ്ഛ്രൌ"/>
+            <when state="ഞ്ഛ്രൊ" output="ഞ്ഛ്രൗ"/>
             <when state="ഞ്ജ" next="ഞ്ജു"/>
             <when state="ഞ്ജാ" output="ഞ്ജോ"/>
             <when state="ഞ്ജു" output="ഞ്ജൂ"/>
             <when state="ഞ്ജൃ" next="ഞ്ജ്രു"/>
-            <when state="ഞ്ജോ" output="ഞ്ജൌ"/>
+            <when state="ഞ്ജോ" output="ഞ്ജൗ"/>
             <when state="ഞ്ജ്രാ" output="ഞ്ജ്രോ"/>
             <when state="ഞ്ജ്രു" output="ഞ്ജ്രൂ"/>
-            <when state="ഞ്ജ്രൊ" output="ഞ്ജ്രൌ"/>
+            <when state="ഞ്ജ്രൊ" output="ഞ്ജ്രൗ"/>
             <when state="ഞ്ഝ" next="ഞ്ഝു"/>
             <when state="ഞ്ഝാ" output="ഞ്ഝോ"/>
             <when state="ഞ്ഝു" output="ഞ്ഝൂ"/>
             <when state="ഞ്ഝൃ" next="ഞ്ഝ്രു"/>
-            <when state="ഞ്ഝോ" output="ഞ്ഝൌ"/>
+            <when state="ഞ്ഝോ" output="ഞ്ഝൗ"/>
             <when state="ഞ്ഝ്രാ" output="ഞ്ഝ്രോ"/>
             <when state="ഞ്ഝ്രു" output="ഞ്ഝ്രൂ"/>
-            <when state="ഞ്ഝ്രൊ" output="ഞ്ഝ്രൌ"/>
+            <when state="ഞ്ഝ്രൊ" output="ഞ്ഝ്രൗ"/>
             <when state="ഞ്രാ" output="ഞ്രോ"/>
             <when state="ഞ്രു" output="ഞ്രൂ"/>
-            <when state="ഞ്രൊ" output="ഞ്രൌ"/>
+            <when state="ഞ്രൊ" output="ഞ്രൗ"/>
             <when state="ട" next="ടു"/>
             <when state="ടാ" output="ടോ"/>
             <when state="ടു" output="ടൂ"/>
             <when state="ടൃ" next="ട്രു"/>
-            <when state="ടോ" output="ടൌ"/>
+            <when state="ടോ" output="ടൗ"/>
             <when state="ട്രാ" output="ട്രോ"/>
             <when state="ട്രു" output="ട്രൂ"/>
-            <when state="ട്രൊ" output="ട്രൌ"/>
+            <when state="ട്രൊ" output="ട്രൗ"/>
             <when state="ഠ" next="ഠു"/>
             <when state="ഠാ" output="ഠോ"/>
             <when state="ഠു" output="ഠൂ"/>
             <when state="ഠൃ" next="ഠ്രു"/>
-            <when state="ഠോ" output="ഠൌ"/>
+            <when state="ഠോ" output="ഠൗ"/>
             <when state="ഠ്രാ" output="ഠ്രോ"/>
             <when state="ഠ്രു" output="ഠ്രൂ"/>
-            <when state="ഠ്രൊ" output="ഠ്രൌ"/>
+            <when state="ഠ്രൊ" output="ഠ്രൗ"/>
             <when state="ഡ" next="ഡു"/>
             <when state="ഡാ" output="ഡോ"/>
             <when state="ഡു" output="ഡൂ"/>
             <when state="ഡൃ" next="ഡ്രു"/>
-            <when state="ഡോ" output="ഡൌ"/>
+            <when state="ഡോ" output="ഡൗ"/>
             <when state="ഡ്രാ" output="ഡ്രോ"/>
             <when state="ഡ്രു" output="ഡ്രൂ"/>
-            <when state="ഡ്രൊ" output="ഡ്രൌ"/>
+            <when state="ഡ്രൊ" output="ഡ്രൗ"/>
             <when state="ഢ" next="ഢു"/>
             <when state="ഢാ" output="ഢോ"/>
             <when state="ഢു" output="ഢൂ"/>
             <when state="ഢൃ" next="ഢ്രു"/>
-            <when state="ഢോ" output="ഢൌ"/>
+            <when state="ഢോ" output="ഢൗ"/>
             <when state="ഢ്രാ" output="ഢ്രോ"/>
             <when state="ഢ്രു" output="ഢ്രൂ"/>
-            <when state="ഢ്രൊ" output="ഢ്രൌ"/>
+            <when state="ഢ്രൊ" output="ഢ്രൗ"/>
             <when state="ണ" next="ണു"/>
             <when state="ണാ" output="ണോ"/>
             <when state="ണു" output="ണൂ"/>
-            <when state="ണോ" output="ണൌ"/>
+            <when state="ണോ" output="ണൗ"/>
             <when state="ണ്ട" next="ണ്ടു"/>
             <when state="ണ്ടാ" output="ണ്ടോ"/>
             <when state="ണ്ടു" output="ണ്ടൂ"/>
             <when state="ണ്ടൃ" next="ണ്ട്രു"/>
-            <when state="ണ്ടോ" output="ണ്ടൌ"/>
+            <when state="ണ്ടോ" output="ണ്ടൗ"/>
             <when state="ണ്ട്രാ" output="ണ്ട്രോ"/>
             <when state="ണ്ട്രു" output="ണ്ട്രൂ"/>
-            <when state="ണ്ട്രൊ" output="ണ്ട്രൌ"/>
+            <when state="ണ്ട്രൊ" output="ണ്ട്രൗ"/>
             <when state="ണ്ഠ" next="ണ്ഠു"/>
             <when state="ണ്ഠാ" output="ണ്ഠോ"/>
             <when state="ണ്ഠു" output="ണ്ഠൂ"/>
             <when state="ണ്ഠൃ" next="ണ്ഠ്രു"/>
-            <when state="ണ്ഠോ" output="ണ്ഠൌ"/>
+            <when state="ണ്ഠോ" output="ണ്ഠൗ"/>
             <when state="ണ്ഠ്രാ" output="ണ്ഠ്രോ"/>
             <when state="ണ്ഠ്രു" output="ണ്ഠ്രൂ"/>
-            <when state="ണ്ഠ്രൊ" output="ണ്ഠ്രൌ"/>
+            <when state="ണ്ഠ്രൊ" output="ണ്ഠ്രൗ"/>
             <when state="ണ്ഡ" next="ണ്ഡു"/>
             <when state="ണ്ഡാ" output="ണ്ഡോ"/>
             <when state="ണ്ഡു" output="ണ്ഡൂ"/>
             <when state="ണ്ഡൃ" next="ണ്ഡ്രു"/>
-            <when state="ണ്ഡോ" output="ണ്ഡൌ"/>
+            <when state="ണ്ഡോ" output="ണ്ഡൗ"/>
             <when state="ണ്ഡ്രാ" output="ണ്ഡ്രോ"/>
             <when state="ണ്ഡ്രു" output="ണ്ഡ്രൂ"/>
-            <when state="ണ്ഡ്രൊ" output="ണ്ഡ്രൌ"/>
+            <when state="ണ്ഡ്രൊ" output="ണ്ഡ്രൗ"/>
             <when state="ണ്ഢ" next="ണ്ഢു"/>
             <when state="ണ്ഢാ" output="ണ്ഢോ"/>
             <when state="ണ്ഢു" output="ണ്ഢൂ"/>
             <when state="ണ്ഢൃ" next="ണ്ഢ്രു"/>
-            <when state="ണ്ഢോ" output="ണ്ഢൌ"/>
+            <when state="ണ്ഢോ" output="ണ്ഢൗ"/>
             <when state="ണ്ഢ്രാ" output="ണ്ഢ്രോ"/>
             <when state="ണ്ഢ്രു" output="ണ്ഢ്രൂ"/>
-            <when state="ണ്ഢ്രൊ" output="ണ്ഢ്രൌ"/>
+            <when state="ണ്ഢ്രൊ" output="ണ്ഢ്രൗ"/>
             <when state="ണ്ണ" next="ണ്ണു"/>
             <when state="ണ്ണാ" output="ണ്ണോ"/>
             <when state="ണ്ണു" output="ണ്ണൂ"/>
-            <when state="ണ്ണോ" output="ണ്ണൌ"/>
+            <when state="ണ്ണോ" output="ണ്ണൗ"/>
             <when state="ണ്രാ" output="ണ്രോ"/>
             <when state="ണ്രു" output="ണ്രൂ"/>
-            <when state="ണ്രൊ" output="ണ്രൌ"/>
+            <when state="ണ്രൊ" output="ണ്രൗ"/>
             <when state="ത" next="തു"/>
             <when state="താ" output="തോ"/>
             <when state="തു" output="തൂ"/>
             <when state="തൃ" next="ത്രു"/>
-            <when state="തോ" output="തൌ"/>
+            <when state="തോ" output="തൗ"/>
             <when state="ത്ര" next="ത്രു"/>
             <when state="ത്രാ" output="ത്രോ"/>
             <when state="ത്രു" output="ത്രൂ"/>
-            <when state="ത്രൊ" output="ത്രൌ"/>
-            <when state="ത്രോ" output="ത്രൌ"/>
+            <when state="ത്രൊ" output="ത്രൗ"/>
+            <when state="ത്രോ" output="ത്രൗ"/>
             <when state="ഥ" next="ഥു"/>
             <when state="ഥാ" output="ഥോ"/>
             <when state="ഥു" output="ഥൂ"/>
             <when state="ഥൃ" next="ഥ്രു"/>
-            <when state="ഥോ" output="ഥൌ"/>
+            <when state="ഥോ" output="ഥൗ"/>
             <when state="ഥ്രാ" output="ഥ്രോ"/>
             <when state="ഥ്രു" output="ഥ്രൂ"/>
-            <when state="ഥ്രൊ" output="ഥ്രൌ"/>
+            <when state="ഥ്രൊ" output="ഥ്രൗ"/>
             <when state="ദ" next="ദു"/>
             <when state="ദാ" output="ദോ"/>
             <when state="ദു" output="ദൂ"/>
             <when state="ദൃ" next="ദ്രു"/>
-            <when state="ദോ" output="ദൌ"/>
+            <when state="ദോ" output="ദൗ"/>
             <when state="ദ്രാ" output="ദ്രോ"/>
             <when state="ദ്രു" output="ദ്രൂ"/>
-            <when state="ദ്രൊ" output="ദ്രൌ"/>
+            <when state="ദ്രൊ" output="ദ്രൗ"/>
             <when state="ധ" next="ധു"/>
             <when state="ധാ" output="ധോ"/>
             <when state="ധു" output="ധൂ"/>
             <when state="ധൃ" next="ധ്രു"/>
-            <when state="ധോ" output="ധൌ"/>
+            <when state="ധോ" output="ധൗ"/>
             <when state="ധ്രാ" output="ധ്രോ"/>
             <when state="ധ്രു" output="ധ്രൂ"/>
-            <when state="ധ്രൊ" output="ധ്രൌ"/>
+            <when state="ധ്രൊ" output="ധ്രൗ"/>
             <when state="ന" next="നു"/>
             <when state="നാ" output="നോ"/>
             <when state="നു" output="നൂ"/>
             <when state="നൃ" next="ന്രു"/>
-            <when state="നോ" output="നൌ"/>
+            <when state="നോ" output="നൗ"/>
             <when state="ന്രാ" output="ന്രോ"/>
             <when state="ന്രു" output="ന്രൂ"/>
-            <when state="ന്രൊ" output="ന്രൌ"/>
+            <when state="ന്രൊ" output="ന്രൗ"/>
             <when state="ന്റ" next="ന്റു"/>
             <when state="ന്റാ" output="ന്റോ"/>
             <when state="ന്റു" output="ന്റൂ"/>
-            <when state="ന്റോ" output="ന്റൌ"/>
+            <when state="ന്റോ" output="ന്റൗ"/>
             <when state="ഩ" next="ഩു"/>
             <when state="ഩാ" output="ഩോ"/>
             <when state="ഩു" output="ഩൂ"/>
-            <when state="ഩൊ" output="ഩൌ"/>
+            <when state="ഩൊ" output="ഩൗ"/>
             <when state="പ" next="പു"/>
             <when state="പാ" output="പോ"/>
             <when state="പു" output="പൂ"/>
             <when state="പൃ" next="പ്രു"/>
-            <when state="പോ" output="പൌ"/>
+            <when state="പോ" output="പൗ"/>
             <when state="പ്രാ" output="പ്രോ"/>
             <when state="പ്രു" output="പ്രൂ"/>
-            <when state="പ്രൊ" output="പ്രൌ"/>
+            <when state="പ്രൊ" output="പ്രൗ"/>
             <when state="ഫ" next="ഫു"/>
             <when state="ഫാ" output="ഫോ"/>
             <when state="ഫു" output="ഫൂ"/>
             <when state="ഫൃ" next="ഫ്രു"/>
-            <when state="ഫോ" output="ഫൌ"/>
+            <when state="ഫോ" output="ഫൗ"/>
             <when state="ഫ്രാ" output="ഫ്രോ"/>
             <when state="ഫ്രു" output="ഫ്രൂ"/>
-            <when state="ഫ്രൊ" output="ഫ്രൌ"/>
+            <when state="ഫ്രൊ" output="ഫ്രൗ"/>
             <when state="ബ" next="ബു"/>
             <when state="ബാ" output="ബോ"/>
             <when state="ബു" output="ബൂ"/>
             <when state="ബൃ" next="ബ്രു"/>
-            <when state="ബോ" output="ബൌ"/>
+            <when state="ബോ" output="ബൗ"/>
             <when state="ബ്രാ" output="ബ്രോ"/>
             <when state="ബ്രു" output="ബ്രൂ"/>
-            <when state="ബ്രൊ" output="ബ്രൌ"/>
+            <when state="ബ്രൊ" output="ബ്രൗ"/>
             <when state="ഭ" next="ഭു"/>
             <when state="ഭാ" output="ഭോ"/>
             <when state="ഭു" output="ഭൂ"/>
             <when state="ഭൃ" next="ഭ്രു"/>
-            <when state="ഭോ" output="ഭൌ"/>
+            <when state="ഭോ" output="ഭൗ"/>
             <when state="ഭ്രാ" output="ഭ്രോ"/>
             <when state="ഭ്രു" output="ഭ്രൂ"/>
-            <when state="ഭ്രൊ" output="ഭ്രൌ"/>
+            <when state="ഭ്രൊ" output="ഭ്രൗ"/>
             <when state="മ" next="മു"/>
             <when state="മാ" output="മോ"/>
             <when state="മു" output="മൂ"/>
             <when state="മൃ" next="മ്രു"/>
-            <when state="മോ" output="മൌ"/>
+            <when state="മോ" output="മൗ"/>
             <when state="മ്രാ" output="മ്രോ"/>
             <when state="മ്രു" output="മ്രൂ"/>
-            <when state="മ്രൊ" output="മ്രൌ"/>
+            <when state="മ്രൊ" output="മ്രൗ"/>
             <when state="യ" next="യു"/>
             <when state="യാ" output="യോ"/>
             <when state="യു" output="യൂ"/>
-            <when state="യോ" output="യൌ"/>
+            <when state="യോ" output="യൗ"/>
             <when state="യ്രാ" output="യ്രോ"/>
             <when state="യ്രു" output="യ്രൂ"/>
-            <when state="യ്രൊ" output="യ്രൌ"/>
+            <when state="യ്രൊ" output="യ്രൗ"/>
             <when state="ര" output="രോ"/>
             <when state="രു" output="രൂ"/>
-            <when state="രൊ" output="രൌ"/>
+            <when state="രൊ" output="രൗ"/>
             <when state="ര്യ" next="ര്യു"/>
             <when state="ര്യാ" output="ര്യോ"/>
             <when state="ര്യു" output="ര്യൂ"/>
-            <when state="ര്യൊ" output="ര്യൌ"/>
+            <when state="ര്യൊ" output="ര്യൗ"/>
             <when state="റ" next="റു"/>
             <when state="റാ" output="റോ"/>
             <when state="റു" output="റൂ"/>
-            <when state="റൊ" output="റൌ"/>
+            <when state="റൊ" output="റൗ"/>
             <when state="റ്റ" output="റ്റു"/>
             <when state="റ്റാ (റ്റ് series)" output="റ്റോ"/>
             <when state="റ്റു (റ്റ് series)" output="റ്റൂ"/>
-            <when state="റ്റൊ (റ്റ് series)" output="റ്റൌ"/>
+            <when state="റ്റൊ (റ്റ് series)" output="റ്റൗ"/>
             <when state="റ്റ് (റ്റ്)" next="റ്റു (റ്റ് series)"/>
             <when state="ല" next="ലു"/>
             <when state="ലാ" output="ലോ"/>
             <when state="ലു" output="ലൂ"/>
-            <when state="ലോ" output="ലൌ"/>
+            <when state="ലോ" output="ലൗ"/>
             <when state="ല്യാ" output="ല്യോ"/>
             <when state="ല്യു" output="ല്യൂ"/>
-            <when state="ല്യൊ" output="ല്യൌ"/>
+            <when state="ല്യൊ" output="ല്യൗ"/>
             <when state="ല്ല" next="ല്ലു"/>
             <when state="ല്ലാ" output="ല്ലോ"/>
             <when state="ല്ലു" output="ല്ലൂ"/>
-            <when state="ല്ലോ" output="ല്ലൌ"/>
+            <when state="ല്ലോ" output="ല്ലൗ"/>
             <when state="ല‎്യ" next="ല്യു"/>
             <when state="ള" next="ളു"/>
             <when state="ളാ" output="ളോ"/>
             <when state="ളു" output="ളൂ"/>
-            <when state="ളോ" output="ളൌ"/>
+            <when state="ളോ" output="ളൗ"/>
             <when state="ള്യ" next="ള്യു"/>
             <when state="ള്യാ" output="ള്യോ"/>
             <when state="ള്യു" output="ള്യൂ"/>
-            <when state="ള്യൊ" output="ള്യൌ"/>
+            <when state="ള്യൊ" output="ള്യൗ"/>
             <when state="ള്ള" next="ള്ളു"/>
             <when state="ള്ളാ" output="ള്ളോ"/>
             <when state="ള്ളു" output="ള്ളൂ"/>
-            <when state="ള്ളോ" output="ള്ളൌ"/>
+            <when state="ള്ളോ" output="ള്ളൗ"/>
             <when state="ഴ" next="ഴു"/>
             <when state="ഴാ" output="ഴോ"/>
             <when state="ഴു" output="ഴൂ"/>
-            <when state="ഴോ" output="ഴൌ"/>
+            <when state="ഴോ" output="ഴൗ"/>
             <when state="ഴ്രാ" output="ഴ്രോ"/>
             <when state="ഴ്രു" output="ഴ്രൂ"/>
-            <when state="ഴ്രൊ" output="ഴ്രൌ"/>
+            <when state="ഴ്രൊ" output="ഴ്രൗ"/>
             <when state="വ" next="വു"/>
             <when state="വാ" output="വോ"/>
             <when state="വു" output="വൂ"/>
             <when state="വൃ" next="വ്രു"/>
-            <when state="വോ" output="വൌ"/>
+            <when state="വോ" output="വൗ"/>
             <when state="വ്രാ" output="വ്രോ"/>
             <when state="വ്രു" output="വ്രൂ"/>
-            <when state="വ്രൊ" output="വ്രൌ"/>
+            <when state="വ്രൊ" output="വ്രൗ"/>
             <when state="ശ" next="ശു"/>
             <when state="ശാ" output="ശോ"/>
             <when state="ശു" output="ശൂ"/>
             <when state="ശൃ" next="ശ്രു"/>
-            <when state="ശോ" output="ശൌ"/>
+            <when state="ശോ" output="ശൗ"/>
             <when state="ശ്രാ" output="ശ്രോ"/>
             <when state="ശ്രു" output="ശ്രൂ"/>
-            <when state="ശ്രൊ" output="ശ്രൌ"/>
+            <when state="ശ്രൊ" output="ശ്രൗ"/>
             <when state="ഷ" next="ഷു"/>
             <when state="ഷാ" output="ഷോ"/>
             <when state="ഷു" output="ഷൂ"/>
-            <when state="ഷോ" output="ഷൌ"/>
+            <when state="ഷോ" output="ഷൗ"/>
             <when state="ഷ്രാ" output="ഷ്രോ"/>
             <when state="ഷ്രു" output="ഷ്രൂ"/>
-            <when state="ഷ്രൊ" output="ഷ്രൌ"/>
+            <when state="ഷ്രൊ" output="ഷ്രൗ"/>
             <when state="സ" next="സു"/>
             <when state="സാ" output="സോ"/>
             <when state="സു" output="സൂ"/>
             <when state="സൃ" next="സ്രു"/>
-            <when state="സോ" output="സൌ"/>
+            <when state="സോ" output="സൗ"/>
             <when state="സ്രാ" output="സ്രോ"/>
             <when state="സ്രു" output="സ്രൂ"/>
-            <when state="സ്രൊ" output="സ്രൌ"/>
+            <when state="സ്രൊ" output="സ്രൗ"/>
             <when state="ഹ" next="ഹു"/>
             <when state="ഹാ" output="ഹോ"/>
             <when state="ഹു" output="ഹൂ"/>
             <when state="ഹൃ" next="ഹ്രു"/>
-            <when state="ഹോ" output="ഹൌ"/>
+            <when state="ഹോ" output="ഹൗ"/>
             <when state="ഹ്രാ" output="ഹ്രോ"/>
             <when state="ഹ്രു" output="ഹ്രൂ"/>
-            <when state="ഹ്രൊ" output="ഹ്രൌ"/>
+            <when state="ഹ്രൊ" output="ഹ്രൗ"/>
             <when state="ഺ" next="ഺു"/>
             <when state="ഺാ" output="ഺോ"/>
             <when state="ഺു" output="ഺൂ"/>
-            <when state="ഺൊ" output="ഺൌ"/>
+            <when state="ഺൊ" output="ഺൗ"/>
             <when state="ു" output="ൂ"/>
             <when state="ർ" next="രു"/>
             <when state="ൽരാ" output="ൽരോ"/>
             <when state="ൽരു" output="ൽരൂ"/>
-            <when state="ൽരൊ" output="ൽരൌ"/>
+            <when state="ൽരൊ" output="ൽരൗ"/>
             <when state="ൾരാ" output="ൾരോ"/>
             <when state="ൾരു" output="ൾരൂ"/>
-            <when state="ൾരൊ" output="ൾരൌ"/>
+            <when state="ൾരൊ" output="ൾരൗ"/>
         </action>
         <action id="എ">
             <when state="none" next="എ"/>
@@ -4055,6 +4073,7 @@
             <when state="ന്റെ" output="ന്റേ"/>
             <when state="ഩ" next="ഩെ"/>
             <when state="ഩെ" output="ഩേ"/>
+            <when state="ഩ്ഺെ" output="ഩ്ഺേ"/>
             <when state="പ" next="പെ"/>
             <when state="പൃ" next="പ്രെ"/>
             <when state="പെ" output="പേ"/>
@@ -4123,6 +4142,7 @@
             <when state="ഺ" next="ഺെ"/>
             <when state="ഺെ" output="ഺേ"/>
             <when state="െ" output="േ"/>
+            <when state="ൻറ്റെ" output="ൻറ്റേ"/>
             <when state="ർ" next="രെ"/>
             <when state="ൽരെ" output="ൽരേ"/>
             <when state="ൾരെ" output="ൾരേ"/>
@@ -4381,13 +4401,13 @@
             <when state="none" next="ച"/>
             <when state="Anuswara" output="ഞ്ച്"/>
             <when state="ഃ (വിസർഗ)" output="സ്ച്"/>
-            <when state="ങ" next="ഞ്ച്"/>
+            <when state="ങ" next="ഞ്ച"/>
             <when state="ന" next="ഞ്ച"/>
         </action>
         <action id="ജ്">
             <when state="none" next="ജ"/>
             <when state="Anuswara" output="ഞ്ജ്"/>
-            <when state="ങ" next="ഞ്ജ്"/>
+            <when state="ങ" next="ഞ്ജ"/>
             <when state="ന" next="ഞ്ജ"/>
             <when state="ഩ് (ങ/ഞ)" next="ഞ"/>
         </action>
@@ -4526,6 +4546,9 @@
             <when state="none" next="ു"/>
             <when state="ു" output="ൂ"/>
         </action>
+        <action id="ൃ">
+            <when state="none" next="ൃ"/>
+        </action>
         <action id="ർ">
             <when state="none" next="ർ"/>
             <when state="ஃസ" output="ஃസൃ"/>
@@ -4584,6 +4607,7 @@
         <action id="ൽ">
             <when state="none" next="ല"/>
             <when state="ല" next="ല്ല"/>
+            <when state="ള" next="ള്ള"/>
         </action>
     </actions>
     <terminators>
@@ -4660,6 +4684,8 @@
         <when state="അ" output="അ"/>
         <when state="ഇ" output="ഇ"/>
         <when state="ഉ" output="ഉ"/>
+        <when state="ഋ" output="ഋ"/>
+        <when state="ഌ" output="ഌ"/>
         <when state="എ" output="എ"/>
         <when state="ഒ" output="ഒ"/>
         <when state="ക" output="ക്"/>
@@ -5137,7 +5163,7 @@
         <when state="ന്രു" output="ന്രു"/>
         <when state="ന്രെ" output="ന്രെ"/>
         <when state="ന്രൊ" output="ന്രൊ"/>
-        <when state="ന്റ" output="ന്റ"/>
+        <when state="ന്റ" output="ന്റ്"/>
         <when state="ന്റാ" output="ന്റ"/>
         <when state="ന്റാഽ (വിസർഗ)" output="ന്റാ"/>
         <when state="ന്റാഽഽ (വിസർഗ)" output="ന്റാഽ"/>
@@ -5152,6 +5178,7 @@
         <when state="ഩെ" output="ഩെ"/>
         <when state="ഩൊ" output="ഩൊ"/>
         <when state="ഩ് (ങ/ഞ)" output="ഩ്"/>
+        <when state="ഩ്ഺെ" output="ഩ്ഺെ"/>
         <when state="പ" output="പ്"/>
         <when state="പാ" output="പ"/>
         <when state="പാഽ (വിസർഗ)" output="പാ"/>
@@ -5392,8 +5419,10 @@
         <when state="ാ" output="ാ"/>
         <when state="ി" output="ി"/>
         <when state="ു" output="ു"/>
+        <when state="ൃ" output="ൃ"/>
         <when state="െ" output="െ"/>
         <when state="ൊ" output="ൊ"/>
+        <when state="ൻറ്റെ" output="ൻറ്റെ"/>
         <when state="ർ" output="ർ"/>
         <when state="ൽരാ" output="ൽര"/>
         <when state="ൽരി" output="ൽരി"/>

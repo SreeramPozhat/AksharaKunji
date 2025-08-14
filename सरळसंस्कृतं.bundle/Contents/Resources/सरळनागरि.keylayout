@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--संस्करण 1.0.1 रामॆण कृतम्&#x000A;स्थिरमप्रकाशितं संस्करणं दिनांकഃ : 5126-श्रावण-01&#x000A;Capslock On.&#x000A;&#x000A;वॆदोच्छारणं (स्वराഃ) —&#x003E; Shift + Options +&#x000A;1. उदात्त: &#x0027; (apostrophe)&#x000A;2. अनुदात्त: , (comma)&#x000A;3. स्वरित: - (minus)&#x000A;&#x000A;&#x000A;अनुपस्थिताः विशेषताः:&#x000A;&#x000A;सिद्धान्ततः, &#x0027;Options&#x0027; + त् = त्र्, किन्तु यतः जनाः आरम्भे &#x0027;T&#x0027; को ट् इति अपि प्रयुञ्जते, अत्र &#x0027;Options&#x0027; कुञ्जि इति प्रयुक्तः।&#x000A;व्यञ्चनानां परं र् इति द्विवारं दाबयन्तः सामान्यं योगं (यथा क्र्) किन्तु अधिकं तर्कं कार्यं न भविष्यति।&#x000A;Control+अक्षर=द्वि अक्षर (मॆक्बुक् यन्त्रे)।&#x000A;&#x000A;Grapheme cluster deletion with Shift+Delete (through Karabiner) - प्रकाशिताः&#x000A;सन्धि नियमाः यथा न् इत्यस्य ण़् इत्यस्य परिवर्तनं यदा र् इत्यस्य परं। एतानि शब्द-प्रक्रमानुसारं (MS word इत्यादि) कर्तव्याः। ओपन सोर्स् शब्द-प्रक्रमाः नियमाः कृताः किन्तु अपि प्रकाशिताः न सन्ति यतः सर्वाः नियमाः अपि न युक्ताः। &#x000A;&#x000A;यद्यपि कोऽपि अन्यः विशॆषताः आवश्यकाः सन्ति कृपया निवॆदनं कुरु।।-->
-<!--Last edited by Ukelele version 396 on 1946-06-07 at 06:03 (GMT-1)-->
-<keyboard group="126" id="-29765" name="सरळनागरि" maxout="9">
+<!--Last edited by Ukelele version 396 on 2025-08-14 at 00:18 (GMT-1)-->
+<keyboard group="126" id="-20990" name="सरळनागरि" maxout="6">
     <layouts>
         <layout first="0" last="17" mapSet="16c" modifiers="f4"/>
         <layout first="18" last="18" mapSet="994" modifiers="f4"/>
@@ -967,7 +967,7 @@
             <key code="41" action=";"/>
             <key code="42" output="\"/>
             <key code="43" action=","/>
-            <key code="44" output="/"/>
+            <key code="44" output="?"/>
             <key code="45" action="न्"/>
             <key code="46" action="म्"/>
             <key code="47" action="।"/>
@@ -1110,7 +1110,6 @@
     <actions>
         <action id=" ">
             <when state="none" output=" "/>
-            <when state="म" output="म़् "/>
         </action>
         <action id="!">
             <when state="none" output="!"/>
@@ -1118,7 +1117,6 @@
         </action>
         <action id=",">
             <when state="none" output=","/>
-            <when state="म" output="म़्,"/>
         </action>
         <action id=":">
             <when state="none" output=":"/>
@@ -1126,10 +1124,9 @@
         </action>
         <action id=";">
             <when state="none" output=";"/>
-            <when state="म" output="म़्;"/>
         </action>
         <action id="?">
-            <when state="none" output="?"/>
+            <when state="none" output="/"/>
             <when state="म" output="म़्?"/>
         </action>
         <action id="`">
@@ -1328,10 +1325,10 @@
             <when state="धाऽ (विसर्ग)" output="धाऽऽ"/>
             <when state="धृ" output="ध्रा"/>
             <when state="न" output="ना"/>
-            <when state="न्ऱ" output="न्ऱा"/>
-            <when state="न्ऱाऽ (विसर्ग)" output="न्ऱाऽऽ"/>
             <when state="नाऽ (विसर्ग)" output="नाऽऽ"/>
             <when state="नृ" output="न्रा"/>
+            <when state="न्ऱ" output="न्ऱा"/>
+            <when state="न्ऱाऽ (विसर्ग)" output="न्ऱाऽऽ"/>
             <when state="ऩ" output="ऩा"/>
             <when state="प" output="पा"/>
             <when state="पाऽ (विसर्ग)" output="पाऽऽ"/>
@@ -1489,8 +1486,8 @@
             <when state="ध" output="धै"/>
             <when state="धृ" output="ध्रै"/>
             <when state="न" output="नै"/>
-            <when state="न्ऱ" output="न्ऱै"/>
             <when state="नृ" output="न्रै"/>
+            <when state="न्ऱ" output="न्ऱै"/>
             <when state="ऩ" output="ऩॆ"/>
             <when state="प" output="पै"/>
             <when state="पृ" output="प्रै"/>
@@ -1631,8 +1628,8 @@
             <when state="ध" output="धी"/>
             <when state="धृ" output="ध्री"/>
             <when state="न" output="नी"/>
-            <when state="न्ऱ" output="न्ऱी"/>
             <when state="नृ" output="न्री"/>
+            <when state="न्ऱ" output="न्ऱी"/>
             <when state="ऩ" output="ऩी"/>
             <when state="प" output="पी"/>
             <when state="पृ" output="प्री"/>
@@ -1793,8 +1790,8 @@
             <when state="ध" output="धौ"/>
             <when state="धृ" output="ध्रौ"/>
             <when state="न" output="नौ"/>
-            <when state="न्ऱ" output="न्ऱौ"/>
             <when state="नृ" output="न्रौ"/>
+            <when state="न्ऱ" output="न्ऱौ"/>
             <when state="ऩ" output="ऩो"/>
             <when state="प" output="पौ"/>
             <when state="पृ" output="प्रौ"/>
@@ -1965,8 +1962,8 @@
             <when state="ध" output="धू"/>
             <when state="धृ" output="ध्रू"/>
             <when state="न" output="नू"/>
-            <when state="न्ऱ" output="न्ऱू"/>
             <when state="नृ" output="न्रू"/>
+            <when state="न्ऱ" output="न्ऱू"/>
             <when state="ऩ" output="ऩू"/>
             <when state="प" output="पू"/>
             <when state="पृ" output="प्रू"/>
@@ -2819,9 +2816,6 @@
             <when state="ध्रा" output="ध्रा"/>
             <when state="ध्रॊ" output="ध्रो"/>
             <when state="न" next="ना"/>
-            <when state="न्ऱ" next="न्ऱा"/>
-            <when state="न्ऱा" output="न्ऱा"/>
-            <when state="न्ऱो" output="न्ऱो"/>
             <when state="ना" next="नाऽ (विसर्ग)"/>
             <when state="नाऽ (विसर्ग)" next="नाऽऽ (विसर्ग)"/>
             <when state="नाऽऽ (विसर्ग)" output="नाऽऽ"/>
@@ -2829,6 +2823,9 @@
             <when state="नो" output="नो"/>
             <when state="न्रा" output="न्रा"/>
             <when state="न्रॊ" output="न्रो"/>
+            <when state="न्ऱ" next="न्ऱा"/>
+            <when state="न्ऱा" output="न्ऱा"/>
+            <when state="न्ऱो" output="न्ऱो"/>
             <when state="ऩ" next="ऩा"/>
             <when state="ऩा" output="ऩा"/>
             <when state="ऩॊ" output="ऩो"/>
@@ -3261,10 +3258,6 @@
             <when state="ध्रि" output="ध्री"/>
             <when state="ध्रे" output="ध्रै"/>
             <when state="न" next="नि"/>
-            <when state="न्ऱ" next="न्ऱि"/>
-            <when state="न्ऱा" output="न्ऱै"/>
-            <when state="न्ऱि" output="न्ऱी"/>
-            <when state="न्ऱे" output="न्ऱै"/>
             <when state="ना" output="नै"/>
             <when state="नि" output="नी"/>
             <when state="नृ" next="न्रि"/>
@@ -3272,6 +3265,10 @@
             <when state="न्रा" output="न्रै"/>
             <when state="न्रि" output="न्री"/>
             <when state="न्रे" output="न्रै"/>
+            <when state="न्ऱ" next="न्ऱि"/>
+            <when state="न्ऱा" output="न्ऱै"/>
+            <when state="न्ऱि" output="न्ऱी"/>
+            <when state="न्ऱे" output="न्ऱै"/>
             <when state="ऩ" next="ऩि"/>
             <when state="ऩा" output="ऩै"/>
             <when state="ऩि" output="ऩी"/>
@@ -3704,10 +3701,6 @@
             <when state="ध्रु" output="ध्रू"/>
             <when state="ध्रॊ" output="ध्रौ"/>
             <when state="न" next="नु"/>
-            <when state="न्ऱ" next="न्ऱु"/>
-            <when state="न्ऱा" output="न्ऱो"/>
-            <when state="न्ऱु" output="न्ऱू"/>
-            <when state="न्ऱो" output="न्ऱौ"/>
             <when state="ना" output="नो"/>
             <when state="नु" output="नू"/>
             <when state="नृ" next="न्रु"/>
@@ -3715,6 +3708,10 @@
             <when state="न्रा" output="न्रो"/>
             <when state="न्रु" output="न्रू"/>
             <when state="न्रॊ" output="न्रौ"/>
+            <when state="न्ऱ" next="न्ऱु"/>
+            <when state="न्ऱा" output="न्ऱो"/>
+            <when state="न्ऱु" output="न्ऱू"/>
+            <when state="न्ऱो" output="न्ऱौ"/>
             <when state="ऩ" next="ऩु"/>
             <when state="ऩा" output="ऩो"/>
             <when state="ऩु" output="ऩू"/>
@@ -4013,11 +4010,11 @@
             <when state="धे" output="धॆ"/>
             <when state="ध्रे" output="ध्रॆ"/>
             <when state="न" next="ने"/>
-            <when state="न्ऱ" next="न्ऱे"/>
-            <when state="न्ऱे" output="न्ऱॆ"/>
             <when state="नृ" next="न्रे"/>
             <when state="ने" output="नॆ"/>
             <when state="न्रे" output="न्रॆ"/>
+            <when state="न्ऱ" next="न्ऱे"/>
+            <when state="न्ऱे" output="न्ऱॆ"/>
             <when state="ऩ" next="ऩे"/>
             <when state="ऩे" output="ऩॆ"/>
             <when state="प" next="पे"/>
@@ -4239,11 +4236,11 @@
             <when state="धो" output="धो"/>
             <when state="ध्रॊ" output="ध्रो"/>
             <when state="न" next="नो"/>
-            <when state="न्ऱ" next="न्ऱो"/>
-            <when state="न्ऱो" output="न्ऱो"/>
             <when state="नृ" next="न्रॊ"/>
             <when state="नो" output="नो"/>
             <when state="न्रॊ" output="न्रो"/>
+            <when state="न्ऱ" next="न्ऱो"/>
+            <when state="न्ऱो" output="न्ऱो"/>
             <when state="ऩ" next="ऩॊ"/>
             <when state="ऩॊ" output="ऩो"/>
             <when state="प" next="पो"/>
@@ -4575,7 +4572,6 @@
         </action>
         <action id="।">
             <when state="none" output="।"/>
-            <when state="म" output="म़्।"/>
         </action>
     </actions>
     <terminators>
@@ -5093,14 +5089,6 @@
         <when state="ध्रे" output="ध्रे"/>
         <when state="ध्रॊ" output="ध्रॊ"/>
         <when state="न" output="न्"/>
-        <when state="न्ऱ" output="न्ऱ्"/>
-        <when state="न्ऱा" output="न्ऱ"/>
-        <when state="न्ऱाऽ (विसर्ग)" output="न्ऱा"/>
-        <when state="न्ऱाऽऽ (विसर्ग)" output="न्ऱाऽ"/>
-        <when state="न्ऱि" output="न्ऱि"/>
-        <when state="न्ऱु" output="न्ऱु"/>
-        <when state="न्ऱे" output="न्ऱे"/>
-        <when state="न्ऱो" output="न्ऱॊ"/>
         <when state="ना" output="न"/>
         <when state="नाऽ (विसर्ग)" output="ना"/>
         <when state="नाऽऽ (विसर्ग)" output="नाऽ"/>
@@ -5114,6 +5102,14 @@
         <when state="न्रु" output="न्रु"/>
         <when state="न्रे" output="न्रे"/>
         <when state="न्रॊ" output="न्रॊ"/>
+        <when state="न्ऱ" output="न्ऱ्"/>
+        <when state="न्ऱा" output="न्ऱ"/>
+        <when state="न्ऱाऽ (विसर्ग)" output="न्ऱा"/>
+        <when state="न्ऱाऽऽ (विसर्ग)" output="न्ऱाऽ"/>
+        <when state="न्ऱि" output="न्ऱि"/>
+        <when state="न्ऱु" output="न्ऱु"/>
+        <when state="न्ऱे" output="न्ऱे"/>
+        <when state="न्ऱो" output="न्ऱॊ"/>
         <when state="ऩ" output="ऩ्"/>
         <when state="ऩा" output="ऩ"/>
         <when state="ऩि" output="ऩि"/>
@@ -5267,7 +5263,7 @@
         <when state="ल्लु" output="ल्लु"/>
         <when state="ल्ले" output="ल्ले"/>
         <when state="ल्लो" output="ल्लॊ"/>
-        <when state="ळ" output="‍ळ्"/>
+        <when state="ळ" output="ळ्"/>
         <when state="ळा" output="ळ"/>
         <when state="ळाऽ (विसर्ग)" output="ळा"/>
         <when state="ळाऽऽ (विसर्ग)" output="ळाऽ"/>
